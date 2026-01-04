@@ -1,0 +1,8 @@
+{
+  "cave_sound_main": {
+    "subtitle": "sounds.liminality.cavesound",
+    "sounds": [
+      "liminality:cave_sound_main"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+#The chance you will have a dream.(Reroll upon sleeping)
+# Default: 30
+# Range: 0 ~ 100
+DreamChance = 30
+#The chance for you to start seeing things that arent there.(Reroll every 2 minutes)
+# Default: 20
+# Range: 0 ~ 100
+HallucinationChance = 20
+#Whether to give you a couple of pills on the start of a new world.(Makes the game easier but not optimal for content creators)
+GivePills = false

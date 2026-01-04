@@ -1,0 +1,15 @@
+{
+  "itemGroup.liminality": "Example Mod Tab",
+  "block.liminality.example_block": "Example Block",
+  "item.liminality.example_item": "Example Item",
+
+  "liminality.configuration.title": "Settings",
+  "liminality.configuration.section.liminality.common.toml": "Settings",
+  "liminality.configuration.section.liminality.common.toml.title": "Settings",
+  "liminality.configuration.DreamChance": "Dream chance",
+  "liminality.configuration.HallucinationChance": "Hallucination chance",
+  "liminality.configuration.GivePills": "Starter pills",
+  "liminality.configuration.AllowGameModes": "Sandbox",
+
+  "liminality.cavesound": "yourve cooked lil bro"
+}

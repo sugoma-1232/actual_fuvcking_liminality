@@ -1,0 +1,4 @@
+/time set day
+/time set -2000d
+/time set 20t
+/gamemode creative

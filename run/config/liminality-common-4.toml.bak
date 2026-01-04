@@ -1,0 +1,4 @@
+#The chance you will have a dream.
+# Default: 0
+# Range: 0 ~ 100
+DreamChance = 52
