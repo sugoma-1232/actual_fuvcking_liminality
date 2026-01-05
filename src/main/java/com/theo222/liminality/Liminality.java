@@ -1,23 +1,25 @@
 package com.theo222.liminality;
 
-import com.mojang.brigadier.StringReader;
-import net.minecraft.core.BlockPos;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.network.chat.ChatType;
-import net.minecraft.network.chat.OutgoingChatMessage;
-import net.minecraft.network.chat.PlayerChatMessage;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.sounds.SoundSource;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.damagesource.DamageType;
+import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.GameType;
-import net.neoforged.neoforge.common.util.DeferredSoundType;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
+import net.neoforged.neoforge.event.entity.living.LivingEntityUseItemEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerEvent;
-import net.neoforged.neoforge.event.tick.LevelTickEvent;
-import net.neoforged.neoforge.event.tick.PlayerTickEvent;
 import net.neoforged.neoforge.event.tick.ServerTickEvent;
+import net.neoforged.neoforge.registries.DeferredBlock;
+import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.registries.DeferredItem;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -25,7 +27,6 @@ import com.mojang.logging.LogUtils;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
-import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
@@ -58,7 +59,20 @@ public class Liminality {
     public static final DeferredRegister<SoundEvent> SOUND_EVENTS = DeferredRegister.create(BuiltInRegistries.SOUND_EVENT, MODID);
 
     public static final Supplier<SoundEvent> CAVESOUND = SOUND_EVENTS.register("cave_sound_main", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath(MODID, "cave_sound_main")));
+    public static final DeferredItem<Item> PILL_ITEM = ITEMS.registerSimpleItem("pill", p -> p.food(new FoodProperties.Builder()
+            .alwaysEdible().nutrition(-2).build()));
+    public static final DeferredBlock<ErrorBlock> ERROR_BLOCK = BLOCKS.registerBlock("error_block", ErrorBlock::new, properties -> properties.noOcclusion().noCollision().speedFactor(-2).noTerrainParticles().randomTicks().sound(SoundType.EMPTY).lightLevel(state -> 5).ignitedByLava());
+    public static final DeferredItem<BlockItem> ERROR_BLOCK_ITEM = ITEMS.registerSimpleBlockItem("error_block", ERROR_BLOCK);
 
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> LIMINALITY_TAB = CREATIVE_MODE_TABS.register("liminality_tab", () -> CreativeModeTab.builder()
+            .title(Component.translatable("itemGroup.liminality")) //The language key for the title of your CreativeModeTab
+            .withTabsBefore(CreativeModeTabs.COMBAT)
+            .icon(() -> PILL_ITEM.get().getDefaultInstance())
+            .displayItems((parameters, output) -> {
+                output.accept(PILL_ITEM.get());
+                output.accept(ERROR_BLOCK_ITEM.get());// Add the example item to the tab. For your own tabs, this method is preferred over the event
+            }).build());
+    //public bool a =
     /*
     // Creates a new Block with the id "liminality:example_block", combining the namespace and path
     public static final DeferredBlock<Block> EXAMPLE_BLOCK = BLOCKS.registerSimpleBlock("example_block", p -> p.mapColor(MapColor.STONE));
@@ -121,6 +135,23 @@ public class Liminality {
         }
         LOGGER.info("TS server is ahh");
     }
+    public void PlayerHallucination(ServerPlayer player) {
+        player.playNotifySound(CAVESOUND.get(), player.getSoundSource(), 1, 1);
+        //player.level().clip(ClipContext.Block(new ClipContext.ShapeGetter, B));
+    }
+    @SubscribeEvent
+    public void OnConsume(LivingEntityUseItemEvent.Finish event)    {
+        if (event.getItem().is(PILL_ITEM.asItem()) && (event.getEntity().level() instanceof ServerLevel serverLevel)) {
+            LiminalitySavedData save = serverLevel.getServer().overworld().getDataStorage().computeIfAbsent(LiminalitySavedData.ID);
+            if (save.HallucinationChance > 9) {
+                save.HallucinationChance = save.HallucinationChance - 10;
+                save.foo();
+            }
+            LOGGER.info("dihmond: "  + String.valueOf(save.HallucinationChance));
+
+
+        }
+    }
     @SubscribeEvent
     public void onServerTick(ServerTickEvent.Pre event) {
         LiminalitySavedData save = event.getServer().overworld().getDataStorage().computeIfAbsent(LiminalitySavedData.ID);
@@ -131,21 +162,23 @@ public class Liminality {
         }
 
         save.Ticks += 1;
-        save.foo();
         if (((double) save.Ticks / 100) == (Math.floor(((double) save.Ticks / 100)))) {
             int the_random_value = new Random().nextInt((99) + 1) + 1;
             if (the_random_value < (save.HallucinationChance + 1)) {
                 LOGGER.info("dih: " + String.valueOf(the_random_value));
-                event.getServer().getPlayerList().getPlayers().forEach(serverPlayer -> serverPlayer.playSound(CAVESOUND.get()));
+
+                save.HallucinationChance -= 6;
+                event.getServer().getPlayerList().getPlayers().forEach(this::PlayerHallucination);
+
                 //event.getServer().getPlayerList().getPlayers().forEach(serverPlayer -> serverPlayer.setHealth(0));
             }
             else {
                 save.HallucinationChance += 3;
-                save.foo();
                 LOGGER.info("clih: " + String.valueOf(save.HallucinationChance));
             }
 
         }
+        save.foo();
         //LOGGER.info("ticks: " + String.valueOf(save.Ticks));
 
 
@@ -162,7 +195,4 @@ public class Liminality {
         if (serverPlayer.gameMode() != GameType.SURVIVAL && !Config.SANDBOX.isTrue()) return;
         serverPlayer.setGameMode(GameType.SURVIVAL);
     }
-
-
-
 }

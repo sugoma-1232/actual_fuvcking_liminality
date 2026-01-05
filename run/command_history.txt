@@ -2,3 +2,14 @@
 /time set -2000d
 /time set 20t
 /gamemode creative
+/time set day
+/tick rate 200
+/tick rate 20
+/time set day
+/time set night
+/kill @e
+/tick rate 20
+/tick rate 200
+/tick rate 20
+/tick rate 200
+/tick rate 20

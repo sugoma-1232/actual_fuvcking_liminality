@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "liminality:block/error_block"
+    }
+  }
+}

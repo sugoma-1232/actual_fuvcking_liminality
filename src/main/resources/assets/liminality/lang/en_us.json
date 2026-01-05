@@ -1,7 +1,7 @@
 {
-  "itemGroup.liminality": "Example Mod Tab",
+  "itemGroup.liminality": "Liminality",
   "block.liminality.example_block": "Example Block",
-  "item.liminality.example_item": "Example Item",
+  "item.liminality.pill": "Risperdal",
 
   "liminality.configuration.title": "Settings",
   "liminality.configuration.section.liminality.common.toml": "Settings",
@@ -11,5 +11,6 @@
   "liminality.configuration.GivePills": "Starter pills",
   "liminality.configuration.AllowGameModes": "Sandbox",
 
-  "liminality.cavesound": "yourve cooked lil bro"
+  "sounds.liminality.cavesound": "yourve cooked lil bro"
+
 }

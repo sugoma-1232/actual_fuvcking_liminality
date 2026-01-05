@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "liminality:item/pill"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "liminality:item/pill_eating"
+    },
+    "property": "minecraft:using_item"
+  }
+}
