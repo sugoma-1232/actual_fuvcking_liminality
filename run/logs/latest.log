@@ -1,111 +1,120 @@
-[06січ.2026 20:45:39.233] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 179ms
-[06січ.2026 20:45:39.247] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.32 (CLIENT in DEV)
-[06січ.2026 20:45:39.248] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run
-[06січ.2026 20:45:39.315] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 115) in 38ms
-[06січ.2026 20:45:39.315] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
-[06січ.2026 20:45:39.315] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/earlydisplay/10.0.32/1ca2e62504996c417c19e740513f8d09b880359e/earlydisplay-10.0.32.jar
-[06січ.2026 20:45:39.315] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
-[06січ.2026 20:45:39.315] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[06січ.2026 20:45:40.115] [ForkJoinPool.commonPool-worker-8/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
-[06січ.2026 20:45:40.220] [ForkJoinPool.commonPool-worker-8/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates liminality%%C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\build\classes\java\main;liminality%%C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\build\resources\main from env
-[06січ.2026 20:45:40.323] [fml-loadingscreen/INFO] [net.neoforged.fml.earlydisplay.render.LoadingScreenRenderer/]: GL info: AMD Radeon(TM) Graphics GL version 3.3.0 Core Profile Context 23.19.21.13.250623, ATI Technologies Inc.
-[06січ.2026 20:45:40.433] [ForkJoinPool.commonPool-worker-8/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[06січ.2026 20:45:40.433] [ForkJoinPool.commonPool-worker-8/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[06січ.2026 21:16:21.470] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 224ms
+[06січ.2026 21:16:21.486] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.32 (CLIENT in DEV)
+[06січ.2026 21:16:21.486] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run
+[06січ.2026 21:16:21.574] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 115) in 41ms
+[06січ.2026 21:16:21.574] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
+[06січ.2026 21:16:21.574] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/earlydisplay/10.0.32/1ca2e62504996c417c19e740513f8d09b880359e/earlydisplay-10.0.32.jar
+[06січ.2026 21:16:21.574] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
+[06січ.2026 21:16:21.574] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[06січ.2026 21:16:22.211] [ForkJoinPool.commonPool-worker-5/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
+[06січ.2026 21:16:22.351] [ForkJoinPool.commonPool-worker-5/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates liminality%%C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\build\classes\java\main;liminality%%C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\build\resources\main from env
+[06січ.2026 21:16:22.427] [fml-loadingscreen/INFO] [net.neoforged.fml.earlydisplay.render.LoadingScreenRenderer/]: GL info: AMD Radeon(TM) Graphics GL version 3.3.0 Core Profile Context 23.19.21.13.250623, ATI Technologies Inc.
+[06січ.2026 21:16:22.599] [ForkJoinPool.commonPool-worker-5/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[06січ.2026 21:16:22.614] [ForkJoinPool.commonPool-worker-5/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
 		Liminality 1.0.0 (liminality)
 		Minecraft 1.21.10 (minecraft)
 		NeoForge 21.10.64 (neoforge)
-[06січ.2026 20:45:40.709] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=CLIENT
-[06січ.2026 20:45:40.741] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
-[06січ.2026 20:45:40.741] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar
-[06січ.2026 20:45:40.866] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+[06січ.2026 21:16:22.952] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=CLIENT
+[06січ.2026 21:16:23.015] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[06січ.2026 21:16:23.015] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar
+[06січ.2026 21:16:23.151] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
  - liminality (composite(folder(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/classes/java/main), folder(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/resources/main)))
  - minecraft (composite(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64-client-extra-aka-minecraft-resources.jar), filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))))
  - mixinextras.neoforge (jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar))
  - neoforge (composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))))
  - net.neoforged.fml.generated (empty(VirtualJar/net.neoforged.fml.generated))
-[06січ.2026 20:45:40.866] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 16ms
-[06січ.2026 20:45:42.849] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 281 Datafixer optimizations took 771 milliseconds
-[06січ.2026 20:45:43.228] [main/WARN] [oshi.util.platform.windows.PerfDataUtil/]: Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
-[06січ.2026 20:45:43.228] [main/WARN] [oshi.util.platform.windows.PerfCounterQueryHandler/]: Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
-[06січ.2026 20:45:43.228] [main/INFO] [oshi.util.platform.windows.PerfCounterQuery/]: Disabling further attempts to query Paging File.
-[06січ.2026 20:45:43.244] [main/WARN] [oshi.util.platform.windows.WmiQueryHandler/]: COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
-[06січ.2026 20:45:43.275] [pool-8-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[06січ.2026 20:45:48.032] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[06січ.2026 20:45:48.047] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[06січ.2026 20:45:48.047] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[06січ.2026 20:45:48.047] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[06січ.2026 20:45:48.047] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[06січ.2026 20:45:48.047] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [waypoint, modify, waypoint, color, reset] and [waypoint, modify, waypoint, color, color] with inputs: [reset]
-[06січ.2026 20:45:48.121] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.64, for MC 1.21.10
-[06січ.2026 20:45:48.577] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[06січ.2026 20:45:48.594] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[06січ.2026 20:45:48.677] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[06січ.2026 20:45:48.803] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
-[06січ.2026 20:45:49.415] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/liminality, mod/neoforge
-[06січ.2026 20:45:49.618] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_pua-16.0.03.hex, loading
-[06січ.2026 20:45:49.618] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.03.hex, loading
-[06січ.2026 20:45:49.737] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.03.hex, loading
-[06січ.2026 20:45:49.765] [resourceLoad/INFO] [com.theo222.liminality.Liminality/]: HELLO FROM CLIENT SETUP
-[06січ.2026 20:45:49.766] [resourceLoad/INFO] [com.theo222.liminality.Liminality/]: MINECRAFT NAME >> Dev
-[06січ.2026 20:45:49.998] [resourceLoad/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture liminality:item/pill with size 1000x1000 limits mip level from 4 to 3
-[06січ.2026 20:45:51.289] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headphones (soundcore Space Q45)
-[06січ.2026 20:45:51.290] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[06січ.2026 20:45:51.291] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[06січ.2026 20:45:51.293] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
-[06січ.2026 20:45:51.293] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
-[06січ.2026 20:45:51.295] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[06січ.2026 20:45:51.296] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
-[06січ.2026 20:45:51.296] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[06січ.2026 20:45:51.303] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/chest.png-atlas
-[06січ.2026 20:45:51.303] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
-[06січ.2026 20:45:51.306] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
-[06січ.2026 20:45:51.310] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[06січ.2026 20:45:51.314] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[06січ.2026 20:45:51.315] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
-[06січ.2026 20:45:51.315] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
-[06січ.2026 20:45:51.419] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
-[06січ.2026 20:45:58.093] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1462 recipes
-[06січ.2026 20:45:58.103] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
-[06січ.2026 20:45:58.105] [Render thread/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
-[06січ.2026 20:45:58.254] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.10
-[06січ.2026 20:45:58.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[06січ.2026 20:45:58.655] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
-[06січ.2026 20:45:58.670] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[06січ.2026 20:45:59.507] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 49 chunks for player spawn...
-[06січ.2026 20:45:59.507] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
-[06січ.2026 20:45:59.526] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
-[06січ.2026 20:45:59.675] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
-[06січ.2026 20:45:59.811] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 1156 ms
-[06січ.2026 20:46:00.106] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:aa6042c6] logged in with entity id 124 at (-171.81818598872388, 63.0, 24.04546221969111)
-[06січ.2026 20:46:00.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[06січ.2026 20:46:00.230] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Ignoring chat session from Dev due to missing Services public key
-[06січ.2026 20:46:00.267] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
-[06січ.2026 20:46:00.314] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[06січ.2026 20:46:00.314] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
-[06січ.2026 20:46:00.316] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[06січ.2026 20:46:00.320] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 23 advancements
-[06січ.2026 20:46:00.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: clih: 15
-[06січ.2026 20:46:00.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: clih: 15
-[06січ.2026 20:46:00.446] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] clih: 15
-[06січ.2026 20:46:00.483] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
-[06січ.2026 20:46:00.546] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
-[06січ.2026 20:46:00.580] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
-[06січ.2026 20:46:00.788] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
-[06січ.2026 20:46:01.077] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
-[06січ.2026 20:46:01.306] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
-[06січ.2026 20:46:01.959] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
-[06січ.2026 20:46:02.778] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
-[06січ.2026 20:46:03.509] [Server thread/ERROR] [net.neoforged.bus.EventBus/EVENTBUS]: Exception caught during firing event: Trying to access unbound value: ResourceKey[minecraft:entity_type / liminality:test_entity]
+[06січ.2026 21:16:23.151] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 22ms
+[06січ.2026 21:16:25.070] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 281 Datafixer optimizations took 535 milliseconds
+[06січ.2026 21:16:25.446] [main/WARN] [oshi.util.platform.windows.PerfDataUtil/]: Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[06січ.2026 21:16:25.446] [main/WARN] [oshi.util.platform.windows.PerfCounterQueryHandler/]: Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[06січ.2026 21:16:25.446] [main/INFO] [oshi.util.platform.windows.PerfCounterQuery/]: Disabling further attempts to query Paging File.
+[06січ.2026 21:16:25.462] [main/WARN] [oshi.util.platform.windows.WmiQueryHandler/]: COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
+[06січ.2026 21:16:25.493] [pool-8-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[06січ.2026 21:16:30.278] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06січ.2026 21:16:30.278] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06січ.2026 21:16:30.278] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06січ.2026 21:16:30.294] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06січ.2026 21:16:30.294] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06січ.2026 21:16:30.309] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [waypoint, modify, waypoint, color, reset] and [waypoint, modify, waypoint, color, color] with inputs: [reset]
+[06січ.2026 21:16:30.379] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.64, for MC 1.21.10
+[06січ.2026 21:16:30.819] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[06січ.2026 21:16:30.839] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[06січ.2026 21:16:30.921] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[06січ.2026 21:16:30.921] [Render thread/WARN] [net.minecraft.client.Minecraft/]: Detected unexpected shutdown during last game startup: resetting fullscreen mode
+[06січ.2026 21:16:31.049] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+[06січ.2026 21:16:31.691] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/liminality, mod/neoforge
+[06січ.2026 21:16:31.896] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_pua-16.0.03.hex, loading
+[06січ.2026 21:16:31.896] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.03.hex, loading
+[06січ.2026 21:16:32.072] [resourceLoad/INFO] [com.theo222.liminality.Liminality/]: HELLO FROM CLIENT SETUP
+[06січ.2026 21:16:32.073] [resourceLoad/INFO] [com.theo222.liminality.Liminality/]: MINECRAFT NAME >> Dev
+[06січ.2026 21:16:32.074] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.03.hex, loading
+[06січ.2026 21:16:32.233] [resourceLoad/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture liminality:item/pill with size 1000x1000 limits mip level from 4 to 3
+[06січ.2026 21:16:33.538] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headphones (soundcore Space Q45)
+[06січ.2026 21:16:33.539] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[06січ.2026 21:16:33.539] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[06січ.2026 21:16:33.542] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[06січ.2026 21:16:33.542] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[06січ.2026 21:16:33.544] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[06січ.2026 21:16:33.544] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[06січ.2026 21:16:33.545] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[06січ.2026 21:16:33.551] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/chest.png-atlas
+[06січ.2026 21:16:33.552] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[06січ.2026 21:16:33.553] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[06січ.2026 21:16:33.558] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[06січ.2026 21:16:33.563] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[06січ.2026 21:16:33.563] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
+[06січ.2026 21:16:33.563] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[06січ.2026 21:16:33.653] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[06січ.2026 21:16:39.344] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1462 recipes
+[06січ.2026 21:16:39.353] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
+[06січ.2026 21:16:39.356] [Render thread/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[06січ.2026 21:16:39.506] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.10
+[06січ.2026 21:16:39.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[06січ.2026 21:16:39.866] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
+[06січ.2026 21:16:39.866] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
+[06січ.2026 21:16:39.881] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[06січ.2026 21:16:40.813] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 49 chunks for player spawn...
+[06січ.2026 21:16:40.815] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
+[06січ.2026 21:16:40.887] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
+[06січ.2026 21:16:41.173] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 1308 ms
+[06січ.2026 21:16:41.463] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:a2fa6d55] logged in with entity id 125 at (-173.57902041093868, 63.0, 24.855730409067295)
+[06січ.2026 21:16:41.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[06січ.2026 21:16:41.571] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Ignoring chat session from Dev due to missing Services public key
+[06січ.2026 21:16:41.620] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[06січ.2026 21:16:41.643] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[06січ.2026 21:16:41.646] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[06січ.2026 21:16:41.671] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[06січ.2026 21:16:41.675] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 23 advancements
+[06січ.2026 21:16:41.786] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[06січ.2026 21:16:41.939] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[06січ.2026 21:16:42.003] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[06січ.2026 21:16:42.117] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
+[06січ.2026 21:16:42.743] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
+[06січ.2026 21:16:43.266] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
+[06січ.2026 21:16:43.569] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[06січ.2026 21:16:43.874] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
+[06січ.2026 21:16:44.519] [Server thread/ERROR] [net.neoforged.bus.EventBus/EVENTBUS]: Exception caught during firing event: Can't find attribute minecraft:max_health
 	Index: 0
 	Listeners:
-		0: net.neoforged.bus.EventListenerFactory$OnConsume/0x000001b062e85c00@3075dc3b
-java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:entity_type / liminality:test_entity]
-	at TRANSFORMER/neoforge@21.10.64/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103)
-	at TRANSFORMER/neoforge@21.10.64/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117)
-	at TRANSFORMER/liminality@1.0.0/com.theo222.liminality.Liminality.OnConsume(Liminality.java:173)
+		0: net.neoforged.bus.EventListenerFactory$OnConsume/0x0000029384e82800@26126982
+java.lang.IllegalArgumentException: Can't find attribute minecraft:max_health
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.ai.attributes.AttributeSupplier.getAttributeInstance(AttributeSupplier.java:20)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.ai.attributes.AttributeSupplier.getValue(AttributeSupplier.java:27)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.ai.attributes.AttributeMap.getValue(AttributeMap.java:61)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.LivingEntity.getAttributeValue(LivingEntity.java:2200)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.LivingEntity.getMaxHealth(LivingEntity.java:2000)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.LivingEntity.<init>(LivingEntity.java:293)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.Mob.<init>(Mob.java:149)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.PathfinderMob.<init>(PathfinderMob.java:17)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.monster.Monster.<init>(Monster.java:33)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.monster.Zombie.<init>(Zombie.java:98)
+	at TRANSFORMER/liminality@1.0.0/com.theo222.liminality.entities.TestEntity.<init>(TestEntity.java:11)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.EntityType.create(EntityType.java:1479)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.EntityType.create(EntityType.java:1359)
+	at TRANSFORMER/liminality@1.0.0/com.theo222.liminality.Liminality.OnConsume(Liminality.java:179)
 	at net.neoforged.bus.EventBus.post(EventBus.java:360)
 	at net.neoforged.bus.EventBus.post(EventBus.java:328)
 	at TRANSFORMER/neoforge@21.10.64/net.neoforged.neoforge.event.EventHooks.onItemUseFinish(EventHooks.java:463)
@@ -129,8 +138,8 @@ java.lang.NullPointerException: Trying to access unbound value: ResourceKey[mine
 	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:284)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[06січ.2026 20:46:03.591] [Server thread/WARN] [oshi.util.platform.windows.WmiQueryHandler/]: COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
-[06січ.2026 20:46:03.597] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
+[06січ.2026 21:16:44.603] [Server thread/WARN] [oshi.util.platform.windows.WmiQueryHandler/]: COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
+[06січ.2026 21:16:44.611] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
 net.minecraft.ReportedException: Ticking player
 	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:185) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
 	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.MinecraftServer.tickConnection(MinecraftServer.java:1212) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
@@ -140,10 +149,21 @@ net.minecraft.ReportedException: Ticking player
 	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:787) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
 	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:284) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:entity_type / liminality:test_entity]
-	at TRANSFORMER/neoforge@21.10.64/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103) ~[neoforge-21.10.64.jar:?]
-	at TRANSFORMER/neoforge@21.10.64/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117) ~[neoforge-21.10.64.jar:?]
-	at TRANSFORMER/liminality@1.0.0/com.theo222.liminality.Liminality.OnConsume(Liminality.java:173) ~[main/:?]
+Caused by: java.lang.IllegalArgumentException: Can't find attribute minecraft:max_health
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.ai.attributes.AttributeSupplier.getAttributeInstance(AttributeSupplier.java:20) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.ai.attributes.AttributeSupplier.getValue(AttributeSupplier.java:27) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.ai.attributes.AttributeMap.getValue(AttributeMap.java:61) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.LivingEntity.getAttributeValue(LivingEntity.java:2200) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.LivingEntity.getMaxHealth(LivingEntity.java:2000) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.LivingEntity.<init>(LivingEntity.java:293) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.Mob.<init>(Mob.java:149) ~[neoforge-21.10.64.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.PathfinderMob.<init>(PathfinderMob.java:17) ~[neoforge-21.10.64.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.monster.Monster.<init>(Monster.java:33) ~[neoforge-21.10.64.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.monster.Zombie.<init>(Zombie.java:98) ~[neoforge-21.10.64.jar:?]
+	at TRANSFORMER/liminality@1.0.0/com.theo222.liminality.entities.TestEntity.<init>(TestEntity.java:11) ~[main/:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.EntityType.create(EntityType.java:1479) ~[neoforge-21.10.64.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.EntityType.create(EntityType.java:1359) ~[neoforge-21.10.64.jar:?]
+	at TRANSFORMER/liminality@1.0.0/com.theo222.liminality.Liminality.OnConsume(Liminality.java:179) ~[main/:?]
 	at net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar:?]
 	at net.neoforged.bus.EventBus.post(EventBus.java:328) ~[bus-8.0.5.jar:?]
 	at TRANSFORMER/neoforge@21.10.64/net.neoforged.neoforge.event.EventHooks.onItemUseFinish(EventHooks.java:463) ~[neoforge-21.10.64.jar:?]
@@ -160,9 +180,9 @@ Caused by: java.lang.NullPointerException: Trying to access unbound value: Resou
 	at TRANSFORMER/minecraft@1.21.10/net.minecraft.network.Connection.tick(Connection.java:411) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
 	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:182) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
 	... 7 more
-[06січ.2026 20:46:03.610] [Server thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID 018e9dd0-1006-4b9c-8c86-e0d95b33be32
-[06січ.2026 20:46:03.611] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\.\crash-reports\crash-2026-01-06_20.46.03-server.txt
-[06січ.2026 20:46:03.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[06січ.2026 20:46:03.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[06січ.2026 20:46:03.624] [Render thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID cf547561-8ced-41ed-89c2-ecab41b1a648
-[06січ.2026 20:46:03.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[06січ.2026 21:16:44.645] [Server thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID a602ff69-d66d-4ea4-bfce-30e90b8bd90f
+[06січ.2026 21:16:44.646] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\.\crash-reports\crash-2026-01-06_21.16.44-server.txt
+[06січ.2026 21:16:44.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[06січ.2026 21:16:44.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[06січ.2026 21:16:44.656] [Render thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID cbfc8a5c-ba26-4a7f-ac66-1e6dc34ac60d
+[06січ.2026 21:16:44.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds

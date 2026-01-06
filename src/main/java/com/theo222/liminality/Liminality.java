@@ -13,6 +13,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntitySpawnReason;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
+import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -21,6 +22,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
+import net.neoforged.neoforge.event.entity.EntityAttributeCreationEvent;
 import net.neoforged.neoforge.event.entity.living.LivingEntityUseItemEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 import net.neoforged.neoforge.event.tick.ServerTickEvent;
@@ -120,9 +122,10 @@ public class Liminality {
         ITEMS.register(modEventBus);
         CREATIVE_MODE_TABS.register(modEventBus);
         SOUND_EVENTS.register(modEventBus);
-
+        ENTITY_TYPES.register(modEventBus);
         NeoForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
+        modEventBus.addListener(this::onEntityAttributeCreation);
 
 
 
@@ -139,6 +142,9 @@ public class Liminality {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             //event.accept(EXAMPLE_BLOCK_ITEM);
         }
+    }
+    public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
+        event.put(TEST.get(), AttributeSupplier.builder().build());
     }
     public void debugprint(String msg, MinecraftServer server) {
         if (Config.DEBUG.isTrue()) {
