@@ -10,3 +10,5 @@ HallucinationChance = 20
 GivePills = false
 #Whether to allow gamemode switching(dont turn this on unless yourve seen it all)
 AllowGameModes = true
+#Some additional info
+Debug = true

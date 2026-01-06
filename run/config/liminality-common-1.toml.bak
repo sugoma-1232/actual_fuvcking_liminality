@@ -8,3 +8,5 @@ DreamChance = 30
 HallucinationChance = 20
 #Whether to give you a couple of pills on the start of a new world.(Makes the game easier but not optimal for content creators)
 GivePills = false
+#Whether to allow gamemode switching(dont turn this on unless yourve seen it all)
+AllowGameModes = true

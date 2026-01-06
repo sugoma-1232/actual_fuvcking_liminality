@@ -1,621 +1,392 @@
-[06січ.2026 00:20:49.496] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 241ms
-[06січ.2026 00:20:49.512] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.32 (CLIENT in DEV)
-[06січ.2026 00:20:49.513] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run
-[06січ.2026 00:20:49.515] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run
-[06січ.2026 00:20:49.516] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path JIJ_CACHEDIR is C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\.cache\jij
-[06січ.2026 00:20:49.516] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\mods
-[06січ.2026 00:20:49.516] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config
-[06січ.2026 00:20:49.516] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config\fml.toml
-[06січ.2026 00:20:49.571] [ForkJoinPool.commonPool-worker-6/DEBUG] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: C:\Users\Admin\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\earlydisplay\10.0.32\1ca2e62504996c417c19e740513f8d09b880359e\earlydisplay-10.0.32.jar contains early service net.neoforged.neoforgespi.earlywindow.ImmediateWindowProvider
-[06січ.2026 00:20:49.574] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: C:\Users\Admin\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\loader\10.0.32\ef0364b1413d96932ddf4b4dc4a5660a4d861b5b\loader-10.0.32.jar contains early service net.neoforged.neoforgespi.locating.IModFileReader
-[06січ.2026 00:20:49.586] [ForkJoinPool.commonPool-worker-6/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Admin\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\earlydisplay\10.0.32\1ca2e62504996c417c19e740513f8d09b880359e\earlydisplay-10.0.32.jar with languages []
-[06січ.2026 00:20:49.586] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Admin\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\loader\10.0.32\ef0364b1413d96932ddf4b4dc4a5660a4d861b5b\loader-10.0.32.jar with languages []
-[06січ.2026 00:20:49.588] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 115) in 32ms
-[06січ.2026 00:20:49.589] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
-[06січ.2026 00:20:49.590] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/earlydisplay/10.0.32/1ca2e62504996c417c19e740513f8d09b880359e/earlydisplay-10.0.32.jar
-[06січ.2026 00:20:49.590] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
-[06січ.2026 00:20:49.596] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 0 implementations of GraphicsBootstrapper:
-[06січ.2026 00:20:49.597] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[06січ.2026 00:20:49.604] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of ImmediateWindowProvider:
-[06січ.2026 00:20:49.605] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.earlydisplay.DisplayWindow from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/earlydisplay/10.0.32/1ca2e62504996c417c19e740513f8d09b880359e/earlydisplay-10.0.32.jar
-[06січ.2026 00:20:49.666] [main/DEBUG] [net.neoforged.fml.earlydisplay.theme.ThemeLoader/]: Loading built-in theme default
-[06січ.2026 00:20:50.162] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 4 implementations of IModFileCandidateLocator:
-[06січ.2026 00:20:50.163] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.GameLocator from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
-[06січ.2026 00:20:50.163] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
-[06січ.2026 00:20:50.164] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.InDevJarLocator from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
-[06січ.2026 00:20:50.164] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
-[06січ.2026 00:20:50.167] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IModFileReader:
-[06січ.2026 00:20:50.167] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
-[06січ.2026 00:20:50.168] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	   -1000 - net.neoforged.fml.loading.moddiscovery.readers.NestedLibraryModReader from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
-[06січ.2026 00:20:50.170] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of IDependencyLocator:
-[06січ.2026 00:20:50.171] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
-[06січ.2026 00:20:50.207] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.moddiscovery.locators.RequiredSystemFiles/]: Found NeoForge MANIFEST.MF in jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar)
-[06січ.2026 00:20:50.209] [ForkJoinPool.commonPool-worker-4/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
-[06січ.2026 00:20:50.316] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.10.64-client-extra-aka-minecraft-resources.jar with {minecraft} mods - versions {1.21.10}
-[06січ.2026 00:20:50.318] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\build\moddev\artifacts\neoforge-21.10.64-client-extra-aka-minecraft-resources.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
-[06січ.2026 00:20:50.320] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\build\moddev\artifacts\neoforge-21.10.64.jar
-[06січ.2026 00:20:50.322] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.10.64.jar with {neoforge} mods - versions {21.10.64}
-[06січ.2026 00:20:50.323] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\build\moddev\artifacts\neoforge-21.10.64.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[3,]]]
-[06січ.2026 00:20:50.328] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config MixinConfig[config=neoforge.mixins.json, requiredMods=[], behaviorVersion=null]
-[06січ.2026 00:20:50.329] [ForkJoinPool.commonPool-worker-4/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates liminality%%C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\build\classes\java\main;liminality%%C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\build\resources\main from env
-[06січ.2026 00:20:50.335] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\build\classes\java\main
-[06січ.2026 00:20:50.340] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {liminality} mods - versions {1.0.0}
-[06січ.2026 00:20:50.341] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\build\classes\java\main with languages [LanguageSpec[languageName=null, acceptedVersions=null]]
-[06січ.2026 00:20:50.342] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\build\moddev\artifacts\neoforge-21.10.64.jar because it was already located earlier
-[06січ.2026 00:20:50.395] [fml-loadingscreen/INFO] [net.neoforged.fml.earlydisplay.render.LoadingScreenRenderer/]: GL info: AMD Radeon(TM) Graphics GL version 3.3.0 Core Profile Context 23.19.21.13.250623, ATI Technologies Inc.
-[06січ.2026 00:20:50.431] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\.cache\jij\9c617719248f8b89847348fc7ea5e705739c147ae5e172551264d225bc9f2507\mixinextras-neoforge-0.5.0.jar with languages []
-[06січ.2026 00:20:50.435] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.10.64.jar with languages []
-[06січ.2026 00:20:50.488] [ForkJoinPool.commonPool-worker-4/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[06січ.2026 00:20:50.491] [ForkJoinPool.commonPool-worker-4/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[06січ.2026 20:45:39.233] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 179ms
+[06січ.2026 20:45:39.247] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.32 (CLIENT in DEV)
+[06січ.2026 20:45:39.248] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run
+[06січ.2026 20:45:39.250] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run
+[06січ.2026 20:45:39.250] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path JIJ_CACHEDIR is C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\.cache\jij
+[06січ.2026 20:45:39.251] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\mods
+[06січ.2026 20:45:39.251] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config
+[06січ.2026 20:45:39.251] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config\fml.toml
+[06січ.2026 20:45:39.300] [ForkJoinPool.commonPool-worker-7/DEBUG] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: C:\Users\Admin\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\earlydisplay\10.0.32\1ca2e62504996c417c19e740513f8d09b880359e\earlydisplay-10.0.32.jar contains early service net.neoforged.neoforgespi.earlywindow.ImmediateWindowProvider
+[06січ.2026 20:45:39.301] [ForkJoinPool.commonPool-worker-2/DEBUG] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: C:\Users\Admin\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\loader\10.0.32\ef0364b1413d96932ddf4b4dc4a5660a4d861b5b\loader-10.0.32.jar contains early service net.neoforged.neoforgespi.locating.IModFileReader
+[06січ.2026 20:45:39.314] [ForkJoinPool.commonPool-worker-7/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Admin\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\earlydisplay\10.0.32\1ca2e62504996c417c19e740513f8d09b880359e\earlydisplay-10.0.32.jar with languages []
+[06січ.2026 20:45:39.314] [ForkJoinPool.commonPool-worker-2/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Admin\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\loader\10.0.32\ef0364b1413d96932ddf4b4dc4a5660a4d861b5b\loader-10.0.32.jar with languages []
+[06січ.2026 20:45:39.315] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 115) in 38ms
+[06січ.2026 20:45:39.315] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
+[06січ.2026 20:45:39.315] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/earlydisplay/10.0.32/1ca2e62504996c417c19e740513f8d09b880359e/earlydisplay-10.0.32.jar
+[06січ.2026 20:45:39.315] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
+[06січ.2026 20:45:39.315] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 0 implementations of GraphicsBootstrapper:
+[06січ.2026 20:45:39.315] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[06січ.2026 20:45:39.315] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of ImmediateWindowProvider:
+[06січ.2026 20:45:39.315] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.earlydisplay.DisplayWindow from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/earlydisplay/10.0.32/1ca2e62504996c417c19e740513f8d09b880359e/earlydisplay-10.0.32.jar
+[06січ.2026 20:45:39.377] [main/DEBUG] [net.neoforged.fml.earlydisplay.theme.ThemeLoader/]: Loading built-in theme default
+[06січ.2026 20:45:39.979] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 4 implementations of IModFileCandidateLocator:
+[06січ.2026 20:45:39.979] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.GameLocator from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
+[06січ.2026 20:45:39.979] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
+[06січ.2026 20:45:39.979] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.InDevJarLocator from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
+[06січ.2026 20:45:39.979] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
+[06січ.2026 20:45:39.979] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IModFileReader:
+[06січ.2026 20:45:39.995] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
+[06січ.2026 20:45:39.996] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	   -1000 - net.neoforged.fml.loading.moddiscovery.readers.NestedLibraryModReader from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
+[06січ.2026 20:45:40.002] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of IDependencyLocator:
+[06січ.2026 20:45:40.002] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
+[06січ.2026 20:45:40.103] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.loading.moddiscovery.locators.RequiredSystemFiles/]: Found NeoForge MANIFEST.MF in jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar)
+[06січ.2026 20:45:40.115] [ForkJoinPool.commonPool-worker-8/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
+[06січ.2026 20:45:40.193] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.10.64-client-extra-aka-minecraft-resources.jar with {minecraft} mods - versions {1.21.10}
+[06січ.2026 20:45:40.193] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\build\moddev\artifacts\neoforge-21.10.64-client-extra-aka-minecraft-resources.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[06січ.2026 20:45:40.210] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\build\moddev\artifacts\neoforge-21.10.64.jar
+[06січ.2026 20:45:40.215] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.10.64.jar with {neoforge} mods - versions {21.10.64}
+[06січ.2026 20:45:40.216] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\build\moddev\artifacts\neoforge-21.10.64.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[3,]]]
+[06січ.2026 20:45:40.220] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config MixinConfig[config=neoforge.mixins.json, requiredMods=[], behaviorVersion=null]
+[06січ.2026 20:45:40.220] [ForkJoinPool.commonPool-worker-8/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates liminality%%C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\build\classes\java\main;liminality%%C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\build\resources\main from env
+[06січ.2026 20:45:40.220] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\build\classes\java\main
+[06січ.2026 20:45:40.235] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {liminality} mods - versions {1.0.0}
+[06січ.2026 20:45:40.235] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\build\classes\java\main with languages [LanguageSpec[languageName=null, acceptedVersions=null]]
+[06січ.2026 20:45:40.235] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\build\moddev\artifacts\neoforge-21.10.64.jar because it was already located earlier
+[06січ.2026 20:45:40.323] [fml-loadingscreen/INFO] [net.neoforged.fml.earlydisplay.render.LoadingScreenRenderer/]: GL info: AMD Radeon(TM) Graphics GL version 3.3.0 Core Profile Context 23.19.21.13.250623, ATI Technologies Inc.
+[06січ.2026 20:45:40.386] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\.cache\jij\9c617719248f8b89847348fc7ea5e705739c147ae5e172551264d225bc9f2507\mixinextras-neoforge-0.5.0.jar with languages []
+[06січ.2026 20:45:40.386] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.10.64.jar with languages []
+[06січ.2026 20:45:40.433] [ForkJoinPool.commonPool-worker-8/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[06січ.2026 20:45:40.433] [ForkJoinPool.commonPool-worker-8/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
 		Liminality 1.0.0 (liminality)
 		Minecraft 1.21.10 (minecraft)
 		NeoForge 21.10.64 (neoforge)
-[06січ.2026 00:20:50.499] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Configured system mods: [minecraft, neoforge]
-[06січ.2026 00:20:50.499] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: minecraft
-[06січ.2026 00:20:50.499] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: neoforge
-[06січ.2026 00:20:50.505] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 2 mod requirements (2 mandatory, 0 optional)
-[06січ.2026 00:20:50.506] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
-[06січ.2026 00:20:50.821] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=CLIENT
-[06січ.2026 00:20:50.850] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
-[06січ.2026 00:20:50.850] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleVirtual(fml:18c85)
-[06січ.2026 00:20:50.852] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleVirtual(fml:18c85)
-[06січ.2026 00:20:50.853] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleVirtual(fml:18c85)
-[06січ.2026 00:20:50.854] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleVirtual(fml:18c85)
-[06січ.2026 00:20:50.854] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleVirtual(fml:18c85)
-[06січ.2026 00:20:50.855] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[06січ.2026 00:20:50.855] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[06січ.2026 00:20:50.857] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
-[06січ.2026 00:20:50.857] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar
-[06січ.2026 00:20:50.865] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IModLanguageLoader:
-[06січ.2026 00:20:50.866] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
-[06січ.2026 00:20:50.866] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.mclanguageprovider.MinecraftModLanguageProvider from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
-[06січ.2026 00:20:50.867] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider javafml, version 10.0
-[06січ.2026 00:20:50.868] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider minecraft, version 10.0
-[06січ.2026 00:20:50.872] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Adding Access Transformer META-INF/accesstransformer.cfg in composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar)))
-[06січ.2026 00:20:50.914] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Adding Access Transformer META-INF/accesstransformergenerated.cfg in composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar)))
-[06січ.2026 00:20:50.938] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 5 implementations of ClassProcessor:
-[06січ.2026 00:20:50.939] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.AccessTransformerService from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
-[06січ.2026 00:20:50.939] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.enumextension.RuntimeEnumExtender from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
-[06січ.2026 00:20:50.939] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.SimpleProcessorsGroup from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
-[06січ.2026 00:20:50.940] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.loading.moddiscovery.locators.NeoForgeDevDistCleaner from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
-[06січ.2026 00:20:50.940] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.loading.mixin.FMLMixinClassProcessor from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
-[06січ.2026 00:20:50.943] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of ClassProcessorProvider:
-[06січ.2026 00:20:50.944] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.neoforge.coremods.NeoForgeCoreMod from C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar
-[06січ.2026 00:20:50.980] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Masking classpath elements: [C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar, C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/resources/main, C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64-client-extra-aka-minecraft-resources.jar, C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/classes/java/main]
-[06січ.2026 00:20:50.995] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+[06січ.2026 20:45:40.433] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Configured system mods: [minecraft, neoforge]
+[06січ.2026 20:45:40.433] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: minecraft
+[06січ.2026 20:45:40.433] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: neoforge
+[06січ.2026 20:45:40.433] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 2 mod requirements (2 mandatory, 0 optional)
+[06січ.2026 20:45:40.433] [ForkJoinPool.commonPool-worker-8/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[06січ.2026 20:45:40.709] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=CLIENT
+[06січ.2026 20:45:40.725] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[06січ.2026 20:45:40.725] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleVirtual(fml:18c85)
+[06січ.2026 20:45:40.725] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleVirtual(fml:18c85)
+[06січ.2026 20:45:40.725] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleVirtual(fml:18c85)
+[06січ.2026 20:45:40.725] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleVirtual(fml:18c85)
+[06січ.2026 20:45:40.725] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleVirtual(fml:18c85)
+[06січ.2026 20:45:40.725] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[06січ.2026 20:45:40.725] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[06січ.2026 20:45:40.741] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[06січ.2026 20:45:40.741] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar
+[06січ.2026 20:45:40.741] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IModLanguageLoader:
+[06січ.2026 20:45:40.741] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
+[06січ.2026 20:45:40.741] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.mclanguageprovider.MinecraftModLanguageProvider from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
+[06січ.2026 20:45:40.741] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider javafml, version 10.0
+[06січ.2026 20:45:40.741] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider minecraft, version 10.0
+[06січ.2026 20:45:40.741] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Adding Access Transformer META-INF/accesstransformer.cfg in composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar)))
+[06січ.2026 20:45:40.772] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Adding Access Transformer META-INF/accesstransformergenerated.cfg in composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar)))
+[06січ.2026 20:45:40.803] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 5 implementations of ClassProcessor:
+[06січ.2026 20:45:40.803] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.AccessTransformerService from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
+[06січ.2026 20:45:40.803] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.enumextension.RuntimeEnumExtender from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
+[06січ.2026 20:45:40.803] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.SimpleProcessorsGroup from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
+[06січ.2026 20:45:40.803] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.loading.moddiscovery.locators.NeoForgeDevDistCleaner from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
+[06січ.2026 20:45:40.803] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.loading.mixin.FMLMixinClassProcessor from C:/Users/Admin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.32/ef0364b1413d96932ddf4b4dc4a5660a4d861b5b/loader-10.0.32.jar
+[06січ.2026 20:45:40.803] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of ClassProcessorProvider:
+[06січ.2026 20:45:40.803] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.neoforge.coremods.NeoForgeCoreMod from C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar
+[06січ.2026 20:45:40.850] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Masking classpath elements: [C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar, C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/resources/main, C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64-client-extra-aka-minecraft-resources.jar, C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/classes/java/main]
+[06січ.2026 20:45:40.866] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
  - liminality (composite(folder(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/classes/java/main), folder(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/resources/main)))
  - minecraft (composite(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64-client-extra-aka-minecraft-resources.jar), filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))))
  - mixinextras.neoforge (jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar))
  - neoforge (composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))))
  - net.neoforged.fml.generated (empty(VirtualJar/net.neoforged.fml.generated))
-[06січ.2026 00:20:51.012] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 31ms
-[06січ.2026 00:20:51.076] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[06січ.2026 00:20:51.077] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[06січ.2026 00:20:51.077] [main/DEBUG] [mixin/]: Adding agents for Mixin Container composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar)
-[06січ.2026 00:20:51.078] [main/DEBUG] [mixin/]: Adding mixin platform agents for container composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar)
-[06січ.2026 00:20:51.078] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar)
-[06січ.2026 00:20:51.079] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar)
-[06січ.2026 00:20:51.079] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar)
-[06січ.2026 00:20:51.079] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar)
-[06січ.2026 00:20:51.080] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar)]
-[06січ.2026 00:20:51.080] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar)]
-[06січ.2026 00:20:51.080] [main/DEBUG] [mixin/]: Adding agents for Mixin Container composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)
-[06січ.2026 00:20:51.081] [main/DEBUG] [mixin/]: Adding mixin platform agents for container composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)
-[06січ.2026 00:20:51.081] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)
-[06січ.2026 00:20:51.081] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)
-[06січ.2026 00:20:51.082] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)
-[06січ.2026 00:20:51.082] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)
-[06січ.2026 00:20:51.082] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)]
-[06січ.2026 00:20:51.083] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json source=composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)
-[06січ.2026 00:20:51.086] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)]
-[06січ.2026 00:20:51.086] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json source=composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)
-[06січ.2026 00:20:51.086] [main/DEBUG] [mixin/]: inject() running with 3 agents
-[06січ.2026 00:20:51.087] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[06січ.2026 00:20:51.087] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[06січ.2026 00:20:51.087] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar)]
-[06січ.2026 00:20:51.087] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar)]
-[06січ.2026 00:20:51.087] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)]
-[06січ.2026 00:20:51.087] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)]
-[06січ.2026 00:20:51.093] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
-[06січ.2026 00:20:51.093] [main/DEBUG] [mixin/]: Selecting config neoforge.mixins.json
-[06січ.2026 00:20:51.098] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
-[06січ.2026 00:20:51.152] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0) is taking over from null
-[06січ.2026 00:20:51.191] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
-[06січ.2026 00:20:51.194] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
-[06січ.2026 00:20:51.195] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
-[06січ.2026 00:20:51.197] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
-[06січ.2026 00:20:51.199] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
-[06січ.2026 00:20:51.200] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
-[06січ.2026 00:20:51.218] [main/DEBUG] [mixin/]: Preparing neoforge.mixins.json (2)
-[06січ.2026 00:20:51.291] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
-[06січ.2026 00:20:51.576] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
-[06січ.2026 00:20:51.578] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
-[06січ.2026 00:20:51.578] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
-[06січ.2026 00:20:52.701] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 281 Datafixer optimizations took 505 milliseconds
-[06січ.2026 00:20:53.092] [main/WARN] [oshi.util.platform.windows.PerfDataUtil/]: Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
-[06січ.2026 00:20:53.093] [main/WARN] [oshi.util.platform.windows.PerfCounterQueryHandler/]: Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
-[06січ.2026 00:20:53.093] [main/INFO] [oshi.util.platform.windows.PerfCounterQuery/]: Disabling further attempts to query Paging File.
-[06січ.2026 00:20:53.105] [main/WARN] [oshi.util.platform.windows.WmiQueryHandler/]: COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
-[06січ.2026 00:20:53.134] [pool-8-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[06січ.2026 00:20:53.135] [pool-8-thread-1/DEBUG] [mixin/]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
-[06січ.2026 00:20:53.135] [pool-8-thread-1/DEBUG] [mixin/]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
-[06січ.2026 00:20:53.136] [pool-8-thread-1/DEBUG] [mixin/]: Registering new injector for @ExpressionInjectorWrapper with com.llamalad7.mixinextras.expression.impl.wrapper.ExpressionInjectorWrapperInjectionInfo
-[06січ.2026 00:20:53.146] [pool-8-thread-1/DEBUG] [mixin/]: Mixing MappedRegistryAccessor from neoforge.mixins.json into net.minecraft.core.MappedRegistry
-[06січ.2026 00:20:53.983] [pool-8-thread-1/DEBUG] [mixin/]: Mixing BlockEntityTypeAccessor from neoforge.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
-[06січ.2026 00:20:55.326] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
-[06січ.2026 00:20:55.326] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 21
-[06січ.2026 00:20:55.327] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
-[06січ.2026 00:20:55.327] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe base methods: all available
-[06січ.2026 00:20:55.329] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
-[06січ.2026 00:20:55.329] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
-[06січ.2026 00:20:55.330] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
-[06січ.2026 00:20:55.331] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
-[06січ.2026 00:20:55.332] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @7c417213
-[06січ.2026 00:20:55.333] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
-[06січ.2026 00:20:55.333] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
-[06січ.2026 00:20:55.334] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\Admin\AppData\Local\Temp (java.io.tmpdir)
-[06січ.2026 00:20:55.334] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
-[06січ.2026 00:20:55.335] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
-[06січ.2026 00:20:55.336] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
-[06січ.2026 00:20:55.336] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
-[06січ.2026 00:20:55.338] [pool-8-thread-1/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
-[06січ.2026 00:20:55.338] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
-[06січ.2026 00:20:57.827] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[06січ.2026 00:20:57.828] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[06січ.2026 00:20:57.831] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[06січ.2026 00:20:57.833] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[06січ.2026 00:20:57.834] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[06січ.2026 00:20:57.834] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [waypoint, modify, waypoint, color, reset] and [waypoint, modify, waypoint, color, color] with inputs: [reset]
-[06січ.2026 00:20:57.864] [main/DEBUG] [net.neoforged.fml.ModWorkManager/LOADING]: Using 12 threads for parallel mod-loading
-[06січ.2026 00:20:57.872] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for liminality with entrypoints [com.theo222.liminality.Liminality, com.theo222.liminality.LiminalityClient]
-[06січ.2026 00:20:57.876] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for neoforge with entrypoints [net.neoforged.neoforge.common.NeoForgeMod, net.neoforged.neoforge.common.OnlyInWarningsHandler, net.neoforged.neoforge.client.ClientNeoForgeMod]
-[06січ.2026 00:20:57.898] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.64, for MC 1.21.10
-[06січ.2026 00:20:57.914] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
-[06січ.2026 00:20:57.914] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file liminality-common.toml for liminality tracking
-[06січ.2026 00:20:57.916] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-common.toml for neoforge tracking
-[06січ.2026 00:20:57.933] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for liminality
-[06січ.2026 00:20:57.934] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.theo222.liminality.LiminalityClient for @SubscribeEvent-annotated methods
-[06січ.2026 00:20:57.934] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method static void com.theo222.liminality.LiminalityClient.onClientSetup(net.neoforged.fml.event.lifecycle.FMLClientSetupEvent) to the event bus of mod liminality
-[06січ.2026 00:20:57.960] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-client.toml for neoforge tracking
-[06січ.2026 00:20:57.961] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
-[06січ.2026 00:20:57.961] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentInternals for @SubscribeEvent-annotated methods
-[06січ.2026 00:20:57.963] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentInternals.onLivingConvert(net.neoforged.neoforge.event.entity.living.LivingConversionEvent$Post) to the game event bus
-[06січ.2026 00:20:57.964] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentInternals.onPlayerClone(net.neoforged.neoforge.event.entity.player.PlayerEvent$Clone) to the game event bus
-[06січ.2026 00:20:57.964] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentSync for @SubscribeEvent-annotated methods
-[06січ.2026 00:20:57.966] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentSync.onChunkSent(net.neoforged.neoforge.event.level.ChunkWatchEvent$Sent) to the game event bus
-[06січ.2026 00:20:57.966] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer for @SubscribeEvent-annotated methods
-[06січ.2026 00:20:57.968] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer.onRenderLevelStage(net.neoforged.neoforge.client.event.RenderLevelStageEvent$AfterEntities) to the game event bus
-[06січ.2026 00:20:57.969] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer.onExtractLevelRenderState(net.neoforged.neoforge.client.event.ExtractLevelRenderStateEvent) to the game event bus
-[06січ.2026 00:20:57.969] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer.onRegisterClientCommands(net.neoforged.neoforge.client.event.RegisterClientCommandsEvent) to the game event bus
-[06січ.2026 00:20:57.969] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.NeoForgeRenderPipelines for @SubscribeEvent-annotated methods
-[06січ.2026 00:20:57.983] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method static void net.neoforged.neoforge.client.NeoForgeRenderPipelines.registerPipelines(net.neoforged.neoforge.client.event.RegisterRenderPipelinesEvent) to the event bus of mod neoforge
-[06січ.2026 00:20:57.984] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.network.ClientPayloadHandler for @SubscribeEvent-annotated methods
-[06січ.2026 00:20:57.993] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.client.network.ClientPayloadHandler.register(net.neoforged.neoforge.client.network.event.RegisterClientPayloadHandlersEvent) to the event bus of mod neoforge
-[06січ.2026 00:20:57.993] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.common.MonsterRoomHooks for @SubscribeEvent-annotated methods
-[06січ.2026 00:20:57.994] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.common.MonsterRoomHooks.onDataMapsUpdated(net.neoforged.neoforge.registries.datamaps.DataMapsUpdatedEvent) to the game event bus
-[06січ.2026 00:20:57.994] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.model.data.ModelDataManager for @SubscribeEvent-annotated methods
-[06січ.2026 00:20:57.995] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.model.data.ModelDataManager.onChunkUnload(net.neoforged.neoforge.event.level.ChunkEvent$Unload) to the game event bus
-[06січ.2026 00:20:57.995] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.ConfigurationInitialization for @SubscribeEvent-annotated methods
-[06січ.2026 00:20:57.998] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.ConfigurationInitialization.configureModdedClient(net.neoforged.neoforge.network.event.RegisterConfigurationTasksEvent) to the event bus of mod neoforge
-[06січ.2026 00:20:57.998] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.NetworkInitialization for @SubscribeEvent-annotated methods
-[06січ.2026 00:20:57.999] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.NetworkInitialization.register(net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent) to the event bus of mod neoforge
-[06січ.2026 00:20:57.999] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.filters.GenericPacketSplitter for @SubscribeEvent-annotated methods
-[06січ.2026 00:20:58.021] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
-[06січ.2026 00:20:58.021] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
-[06січ.2026 00:20:58.022] [modloading-worker-0/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6fc352cd
-[06січ.2026 00:20:58.028] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-[06січ.2026 00:20:58.028] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-[06січ.2026 00:20:58.030] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 24
-[06січ.2026 00:20:58.030] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 24
-[06січ.2026 00:20:58.031] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
-[06січ.2026 00:20:58.031] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
-[06січ.2026 00:20:58.031] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
-[06січ.2026 00:20:58.031] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
-[06січ.2026 00:20:58.031] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
-[06січ.2026 00:20:58.031] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-[06січ.2026 00:20:58.031] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
-[06січ.2026 00:20:58.031] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-[06січ.2026 00:20:58.031] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
-[06січ.2026 00:20:58.031] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-[06січ.2026 00:20:58.031] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
-[06січ.2026 00:20:58.038] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
-[06січ.2026 00:20:58.038] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
-[06січ.2026 00:20:58.038] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
-[06січ.2026 00:20:58.044] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.filters.GenericPacketSplitter.register(net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent) to the event bus of mod neoforge
-[06січ.2026 00:20:58.162] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
-[06січ.2026 00:20:58.170] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-client.toml
-[06січ.2026 00:20:58.171] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config\neoforge-client.toml
-[06січ.2026 00:20:58.176] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config\neoforge-client.toml for changes
-[06січ.2026 00:20:58.176] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
-[06січ.2026 00:20:58.178] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config\liminality-common.toml
-[06січ.2026 00:20:58.179] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config\liminality-common.toml for changes
-[06січ.2026 00:20:58.179] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-common.toml
-[06січ.2026 00:20:58.179] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config\neoforge-common.toml
-[06січ.2026 00:20:58.180] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config\neoforge-common.toml for changes
-[06січ.2026 00:20:58.322] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[06січ.2026 00:20:58.340] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[06січ.2026 00:20:58.418] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[06січ.2026 00:20:58.586] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
-[06січ.2026 00:20:59.197] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/liminality, mod/neoforge
-[06січ.2026 00:20:59.335] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Common setup: 1 jobs
-[06січ.2026 00:20:59.337] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 917.5 μs
-[06січ.2026 00:20:59.356] [resourceLoad/INFO] [com.theo222.liminality.Liminality/]: HELLO FROM CLIENT SETUP
-[06січ.2026 00:20:59.356] [resourceLoad/INFO] [com.theo222.liminality.Liminality/]: MINECRAFT NAME >> Dev
-[06січ.2026 00:20:59.406] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.03.hex, loading
-[06січ.2026 00:20:59.406] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_pua-16.0.03.hex, loading
-[06січ.2026 00:20:59.531] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.03.hex, loading
-[06січ.2026 00:20:59.716] [resourceLoad/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture liminality:item/pill with size 1000x1000 limits mip level from 4 to 3
-[06січ.2026 00:21:00.605] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
-[06січ.2026 00:21:00.606] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[06січ.2026 00:21:00.607] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[06січ.2026 00:21:00.609] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
-[06січ.2026 00:21:00.609] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
-[06січ.2026 00:21:00.611] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[06січ.2026 00:21:00.612] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
-[06січ.2026 00:21:00.613] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[06січ.2026 00:21:00.619] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/chest.png-atlas
-[06січ.2026 00:21:00.620] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
-[06січ.2026 00:21:00.621] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
-[06січ.2026 00:21:00.624] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[06січ.2026 00:21:00.630] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[06січ.2026 00:21:00.630] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
-[06січ.2026 00:21:00.630] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
-[06січ.2026 00:21:00.743] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
-[06січ.2026 00:21:00.911] [Render thread/DEBUG] [net.neoforged.fml.classloading.transformation.ClassTransformStatistics/]: Transformed/total loaded classes: 395/6986 (5,65%) and 5 parsed for mixin
-[06січ.2026 00:21:07.023] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1462 recipes
-[06січ.2026 00:21:07.032] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
-[06січ.2026 00:21:07.035] [Render thread/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
-[06січ.2026 00:21:07.107] [Render thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[06січ.2026 00:21:07.175] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.10
-[06січ.2026 00:21:07.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[06січ.2026 00:21:07.267] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
-[06січ.2026 00:21:07.268] [Server thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-server.toml
-[06січ.2026 00:21:07.269] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config\neoforge-server.toml
-[06січ.2026 00:21:07.270] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config\neoforge-server.toml for changes
-[06січ.2026 00:21:07.502] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
-[06січ.2026 00:21:07.503] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
-[06січ.2026 00:21:07.515] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[06січ.2026 00:21:07.518] [Server thread/INFO] [com.theo222.liminality.Liminality/]: TS server is ahh
-[06січ.2026 00:21:07.590] [Render thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 24
-[06січ.2026 00:21:07.602] [Render thread/DEBUG] [io.netty.util.concurrent.GlobalEventExecutor/]: -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
-[06січ.2026 00:21:07.612] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
-[06січ.2026 00:21:07.613] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
-[06січ.2026 00:21:07.620] [Render thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
-[06січ.2026 00:21:07.656] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 17016 (auto-detected)
-[06січ.2026 00:21:07.658] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
-[06січ.2026 00:21:07.659] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: system
-[06січ.2026 00:21:07.662] [Render thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
-[06січ.2026 00:21:07.663] [Render thread/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-[06січ.2026 00:21:07.664] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 20:2b:20:ff:fe:18:ac:d8 (auto-detected)
-[06січ.2026 00:21:07.680] [Render thread/DEBUG] [io.netty.bootstrap.ChannelInitializerExtensions/]: -Dio.netty.bootstrap.extensions: null
-[06січ.2026 00:21:07.727] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
-[06січ.2026 00:21:07.727] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
-[06січ.2026 00:21:07.728] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
-[06січ.2026 00:21:07.728] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
-[06січ.2026 00:21:07.728] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.batchFastThreadLocalOnly: true
-[06січ.2026 00:21:07.820] [Netty Server IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@8fc928c into net.minecraft.network.Connection@3c5d84ca
-[06січ.2026 00:21:07.825] [Netty Local Client IO #0/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@6b3aba12 into net.minecraft.network.Connection@28a655a0
-[06січ.2026 00:21:08.002] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 49 chunks for player spawn...
-[06січ.2026 00:21:08.003] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
-[06січ.2026 00:21:08.172] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 671 ms
-[06січ.2026 00:21:08.423] [Netty Server IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@faebaa6 into net.minecraft.network.Connection@3c5d84ca
-[06січ.2026 00:21:08.507] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:1725fc5a] logged in with entity id 1 at (-64.4960983674231, 68.65193516357002, -48.930103285157266)
-[06січ.2026 00:21:08.521] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/]: Sending 0 recipes of the following types: []
-[06січ.2026 00:21:08.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[06січ.2026 00:21:08.621] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Ignoring chat session from Dev due to missing Services public key
-[06січ.2026 00:21:08.659] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
-[06січ.2026 00:21:08.676] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[06січ.2026 00:21:08.679] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[06січ.2026 00:21:08.699] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
-[06січ.2026 00:21:08.713] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 51 advancements
-[06січ.2026 00:21:08.819] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
-[06січ.2026 00:21:09.072] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
-[06січ.2026 00:21:09.118] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
-[06січ.2026 00:21:09.233] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
-[06січ.2026 00:21:09.501] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
-[06січ.2026 00:21:10.100] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
-[06січ.2026 00:21:10.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[06січ.2026 00:21:10.691] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[06січ.2026 00:21:13.322] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 21
-[06січ.2026 00:21:18.323] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 31
-[06січ.2026 00:21:21.672] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06січ.2026 00:21:21.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06січ.2026 00:21:21.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06січ.2026 00:21:21.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06січ.2026 00:21:21.718] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[06січ.2026 00:21:25.022] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06січ.2026 00:21:25.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06січ.2026 00:21:25.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06січ.2026 00:21:25.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06січ.2026 00:21:25.039] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[06січ.2026 00:21:26.772] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 34
-[06січ.2026 00:21:27.472] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06січ.2026 00:21:27.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06січ.2026 00:21:27.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06січ.2026 00:21:27.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06січ.2026 00:21:27.488] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[06січ.2026 00:21:37.923] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 34
-[06січ.2026 00:21:42.623] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06січ.2026 00:21:42.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06січ.2026 00:21:42.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06січ.2026 00:21:42.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06січ.2026 00:21:42.640] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[06січ.2026 00:21:43.122] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[06січ.2026 00:21:43.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[06січ.2026 00:21:43.134] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
-[06січ.2026 00:21:43.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[06січ.2026 00:21:43.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[06січ.2026 00:21:43.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[06січ.2026 00:21:43.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06січ.2026 00:21:43.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06січ.2026 00:21:43.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06січ.2026 00:21:43.230] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[06січ.2026 00:21:43.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
-[06січ.2026 00:21:43.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06січ.2026 00:21:43.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06січ.2026 00:21:43.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[06січ.2026 00:21:43.249] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
-[06січ.2026 00:21:48.431] [Render thread/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack tests
-[06січ.2026 00:21:49.978] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1462 recipes
-[06січ.2026 00:21:49.982] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
-[06січ.2026 00:21:49.982] [Render thread/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
-[06січ.2026 00:21:50.695] [Render thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[06січ.2026 00:21:50.709] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.10
-[06січ.2026 00:21:50.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[06січ.2026 00:21:50.739] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
-[06січ.2026 00:21:50.740] [Server thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-server.toml
-[06січ.2026 00:21:50.740] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config\neoforge-server.toml
-[06січ.2026 00:21:50.741] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config\neoforge-server.toml for changes
-[06січ.2026 00:21:50.754] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Selecting global world spawn...
-[06січ.2026 00:21:51.064] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
-[06січ.2026 00:21:51.064] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
-[06січ.2026 00:21:51.064] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[06січ.2026 00:21:51.065] [Server thread/INFO] [com.theo222.liminality.Liminality/]: TS server is ahh
-[06січ.2026 00:21:51.171] [Netty Server IO #3/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@2296cb24 into net.minecraft.network.Connection@67945112
-[06січ.2026 00:21:51.172] [Netty Local Client IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@61192f01 into net.minecraft.network.Connection@241bbd46
-[06січ.2026 00:21:51.372] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 47 chunks for player spawn...
-[06січ.2026 00:21:51.372] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
-[06січ.2026 00:21:51.766] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 57%
-[06січ.2026 00:21:51.818] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 1064 ms
-[06січ.2026 00:21:51.917] [Netty Server IO #3/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@473cb2ed into net.minecraft.network.Connection@67945112
-[06січ.2026 00:21:51.925] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:73e0240f] logged in with entity id 35 at (-8.5, 56.0, 3.5)
-[06січ.2026 00:21:51.926] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/]: Sending 0 recipes of the following types: []
-[06січ.2026 00:21:51.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[06січ.2026 00:21:51.953] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[06січ.2026 00:21:51.955] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[06січ.2026 00:21:51.969] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Ignoring chat session from Dev due to missing Services public key
-[06січ.2026 00:21:51.969] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
-[06січ.2026 00:21:54.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[06січ.2026 00:21:54.824] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[06січ.2026 00:21:56.867] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 23
-[06січ.2026 00:22:01.867] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 26
-[06січ.2026 00:22:06.867] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 29
-[06січ.2026 00:22:08.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the target tick rate to 200.0 per second]
-[06січ.2026 00:22:08.110] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the target tick rate to 200.0 per second
-[06січ.2026 00:22:08.492] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 32
-[06січ.2026 00:22:08.993] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 22
-[06січ.2026 00:22:09.492] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 29
-[06січ.2026 00:22:09.991] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 32
-[06січ.2026 00:22:10.493] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 30
-[06січ.2026 00:22:10.993] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 29
-[06січ.2026 00:22:11.492] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 11
-[06січ.2026 00:22:11.992] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 2
-[06січ.2026 00:22:12.492] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 11
-[06січ.2026 00:22:12.993] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 14
-[06січ.2026 00:22:13.492] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 17
-[06січ.2026 00:22:13.992] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 20
-[06січ.2026 00:22:14.492] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 23
-[06січ.2026 00:22:14.992] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 26
-[06січ.2026 00:22:15.492] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 29
-[06січ.2026 00:22:15.992] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 32
-[06січ.2026 00:22:16.492] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 35
-[06січ.2026 00:22:16.992] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 22
-[06січ.2026 00:22:17.491] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 14
-[06січ.2026 00:22:17.991] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 26
-[06січ.2026 00:22:18.491] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 29
-[06січ.2026 00:22:18.991] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 32
-[06січ.2026 00:22:19.491] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 35
-[06січ.2026 00:22:19.991] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 38
-[06січ.2026 00:22:20.492] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 41
-[06січ.2026 00:22:20.993] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 44
-[06січ.2026 00:22:21.491] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 30
-[06січ.2026 00:22:21.992] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 41
-[06січ.2026 00:22:22.492] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 14
-[06січ.2026 00:22:22.993] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 38
-[06січ.2026 00:22:23.492] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 24
-[06січ.2026 00:22:23.992] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 35
-[06січ.2026 00:22:24.492] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 8
-[06січ.2026 00:22:24.993] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 32
-[06січ.2026 00:22:25.493] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 35
-[06січ.2026 00:22:25.992] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 38
-[06січ.2026 00:22:26.493] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 41
-[06січ.2026 00:22:26.992] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 21
-[06січ.2026 00:22:27.492] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 38
-[06січ.2026 00:22:27.993] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 41
-[06січ.2026 00:22:28.492] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 44
-[06січ.2026 00:22:28.993] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 34
-[06січ.2026 00:22:29.492] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 41
-[06січ.2026 00:22:29.993] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 44
-[06січ.2026 00:22:30.492] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 47
-[06січ.2026 00:22:30.993] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 9
-[06січ.2026 00:22:31.492] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 44
-[06січ.2026 00:22:31.992] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 47
-[06січ.2026 00:22:32.492] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 50
-[06січ.2026 00:22:32.992] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 53
-[06січ.2026 00:22:33.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the target tick rate to 20.0 per second]
-[06січ.2026 00:22:33.157] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the target tick rate to 20.0 per second
-[06січ.2026 00:22:36.598] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 56
-[06січ.2026 00:22:41.597] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 41
-[06січ.2026 00:22:46.596] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 5
-[06січ.2026 00:22:51.597] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 47
-[06січ.2026 00:22:52.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
-[06січ.2026 00:22:52.059] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
-[06січ.2026 00:22:56.598] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 50
-[06січ.2026 00:23:01.596] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 53
-[06січ.2026 00:23:06.597] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 37
-[06січ.2026 00:23:06.616] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[06січ.2026 00:23:11.597] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 28
-[06січ.2026 00:23:16.597] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 40
-[06січ.2026 00:23:21.596] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 38
-[06січ.2026 00:23:26.597] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 41
-[06січ.2026 00:23:31.596] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 14
-[06січ.2026 00:23:36.598] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 38
-[06січ.2026 00:23:41.597] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 38
-[06січ.2026 00:23:43.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[06січ.2026 00:23:43.550] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[06січ.2026 00:23:46.598] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 35
-[06січ.2026 00:23:48.347] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06січ.2026 00:23:48.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06січ.2026 00:23:48.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06січ.2026 00:23:48.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06січ.2026 00:23:48.358] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[06січ.2026 00:23:52.246] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06січ.2026 00:23:52.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06січ.2026 00:23:52.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06січ.2026 00:23:52.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06січ.2026 00:23:52.258] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[06січ.2026 00:23:52.648] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[06січ.2026 00:23:52.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[06січ.2026 00:23:52.655] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
-[06січ.2026 00:23:52.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[06січ.2026 00:23:52.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[06січ.2026 00:23:52.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[06січ.2026 00:23:54.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06січ.2026 00:23:54.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06січ.2026 00:23:54.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06січ.2026 00:23:54.089] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[06січ.2026 00:23:54.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (3)): All chunks are saved
-[06січ.2026 00:23:54.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06січ.2026 00:23:54.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06січ.2026 00:23:54.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[06січ.2026 00:23:54.149] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
-[06січ.2026 00:23:56.095] [Render thread/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack tests
-[06січ.2026 00:23:57.535] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1462 recipes
-[06січ.2026 00:23:57.538] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
-[06січ.2026 00:23:57.539] [Render thread/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
-[06січ.2026 00:23:59.775] [Render thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[06січ.2026 00:23:59.786] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.10
-[06січ.2026 00:23:59.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[06січ.2026 00:23:59.823] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
-[06січ.2026 00:23:59.825] [Server thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-server.toml
-[06січ.2026 00:23:59.825] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config\neoforge-server.toml
-[06січ.2026 00:23:59.826] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config\neoforge-server.toml for changes
-[06січ.2026 00:23:59.936] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Selecting global world spawn...
-[06січ.2026 00:24:01.804] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
-[06січ.2026 00:24:01.804] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
-[06січ.2026 00:24:01.805] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[06січ.2026 00:24:01.805] [Server thread/INFO] [com.theo222.liminality.Liminality/]: TS server is ahh
-[06січ.2026 00:24:01.908] [Netty Server IO #5/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@444a447e into net.minecraft.network.Connection@148c293
-[06січ.2026 00:24:01.909] [Netty Local Client IO #2/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@fb0653b into net.minecraft.network.Connection@4ab2faa9
-[06січ.2026 00:24:02.009] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 48 chunks for player spawn...
-[06січ.2026 00:24:02.010] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
-[06січ.2026 00:24:02.056] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
-[06січ.2026 00:24:02.107] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
-[06січ.2026 00:24:02.156] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
-[06січ.2026 00:24:02.456] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
-[06січ.2026 00:24:02.956] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
-[06січ.2026 00:24:03.457] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 30%
-[06січ.2026 00:24:03.959] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 58%
-[06січ.2026 00:24:04.456] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 58%
-[06січ.2026 00:24:04.606] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 4670 ms
-[06січ.2026 00:24:04.706] [Netty Server IO #5/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@5edd57eb into net.minecraft.network.Connection@148c293
-[06січ.2026 00:24:04.717] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:a0fb142f] logged in with entity id 1265 at (1.5, 65.0, 2.5)
-[06січ.2026 00:24:04.718] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/]: Sending 0 recipes of the following types: []
-[06січ.2026 00:24:04.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[06січ.2026 00:24:04.750] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Ignoring chat session from Dev due to missing Services public key
-[06січ.2026 00:24:04.762] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[06січ.2026 00:24:04.765] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[06січ.2026 00:24:04.767] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
-[06січ.2026 00:24:06.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[06січ.2026 00:24:06.964] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[06січ.2026 00:24:08.006] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06січ.2026 00:24:08.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06січ.2026 00:24:08.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06січ.2026 00:24:08.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06січ.2026 00:24:08.034] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[06січ.2026 00:24:11.578] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 23
-[06січ.2026 00:24:14.563] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
-[06січ.2026 00:24:16.556] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 20
-[06січ.2026 00:24:21.555] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 20
-[06січ.2026 00:24:26.148] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 1024 reached during a single frame. New capacity will be 2048.
-[06січ.2026 00:24:26.556] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 23
-[06січ.2026 00:24:31.556] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 26
-[06січ.2026 00:24:36.556] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 29
-[06січ.2026 00:24:40.256] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06січ.2026 00:24:40.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06січ.2026 00:24:40.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06січ.2026 00:24:40.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06січ.2026 00:24:40.295] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[06січ.2026 00:24:41.807] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 32
-[06січ.2026 00:24:46.808] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 19
-[06січ.2026 00:24:51.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
-[06січ.2026 00:24:51.177] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
-[06січ.2026 00:24:51.807] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 29
-[06січ.2026 00:24:56.806] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 32
-[06січ.2026 00:25:01.806] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 35
-[06січ.2026 00:25:06.806] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 38
-[06січ.2026 00:25:11.806] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 26
-[06січ.2026 00:25:16.807] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 29
-[06січ.2026 00:25:21.807] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 29
-[06січ.2026 00:25:26.807] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 32
-[06січ.2026 00:25:31.807] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 11
-[06січ.2026 00:25:36.806] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 19
-[06січ.2026 00:25:41.807] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 23
-[06січ.2026 00:25:46.808] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 10
-[06січ.2026 00:25:51.807] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 20
-[06січ.2026 00:25:56.806] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 23
-[06січ.2026 00:26:01.807] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 26
-[06січ.2026 00:26:06.807] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 29
-[06січ.2026 00:26:08.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[06січ.2026 00:26:08.064] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[06січ.2026 00:26:08.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
-[06січ.2026 00:26:08.913] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
-[06січ.2026 00:26:11.807] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 32
-[06січ.2026 00:26:16.806] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 35
-[06січ.2026 00:26:21.807] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 38
-[06січ.2026 00:26:26.806] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 21
-[06січ.2026 00:26:31.806] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 25
-[06січ.2026 00:26:36.806] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 2
-[06січ.2026 00:26:41.807] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 23
-[06січ.2026 00:26:46.806] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 26
-[06січ.2026 00:26:47.033] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 9 advancements
-[06січ.2026 00:26:51.807] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 29
-[06січ.2026 00:26:56.807] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 18
-[06січ.2026 00:27:01.806] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 26
-[06січ.2026 00:27:06.807] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 29
-[06січ.2026 00:27:11.806] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 32
-[06січ.2026 00:27:16.806] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 35
-[06січ.2026 00:27:21.808] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 38
-[06січ.2026 00:27:26.806] [Server thread/INFO] [com.theo222.liminality.Liminality/]: dih: 37
-[06січ.2026 00:27:31.807] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 35
-[06січ.2026 00:27:36.806] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 38
-[06січ.2026 00:27:41.421] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 27 advancements
-[06січ.2026 00:27:41.807] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 41
-[06січ.2026 00:27:46.807] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 44
-[06січ.2026 00:27:51.806] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 47
-[06січ.2026 00:27:56.806] [Server thread/INFO] [com.theo222.liminality.Liminality/]: clih: 50
-[06січ.2026 00:27:59.456] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06січ.2026 00:27:59.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06січ.2026 00:27:59.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06січ.2026 00:27:59.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06січ.2026 00:27:59.489] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[06січ.2026 00:28:00.061] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[06січ.2026 00:28:00.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[06січ.2026 00:28:00.071] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
-[06січ.2026 00:28:00.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[06січ.2026 00:28:00.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[06січ.2026 00:28:00.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[06січ.2026 00:28:01.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06січ.2026 00:28:01.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06січ.2026 00:28:01.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06січ.2026 00:28:01.723] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[06січ.2026 00:28:01.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (4)): All chunks are saved
-[06січ.2026 00:28:01.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06січ.2026 00:28:01.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06січ.2026 00:28:01.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[06січ.2026 00:28:01.754] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
-[06січ.2026 00:28:02.497] [Render thread/DEBUG] [net.neoforged.fml.classloading.transformation.ClassTransformStatistics/]: Transformed/total loaded classes: 438/8971 (4,88%) and 5 parsed for mixin
-[06січ.2026 00:28:02.506] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[06січ.2026 20:45:40.866] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 16ms
+[06січ.2026 20:45:40.929] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: Adding agents for Mixin Container composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar)
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: Adding mixin platform agents for container composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar)
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar)
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar)
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar)
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar)
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar)]
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar)]
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: Adding agents for Mixin Container composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: Adding mixin platform agents for container composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)]
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json source=composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)]
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json source=composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: inject() running with 3 agents
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar)]
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > net.neoforged.neoforge-coremods-21.10.64.jar)]
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)]
+[06січ.2026 20:45:40.945] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:composite(filtered(jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar))) > jar(C:/Users/Admin/Desktop/minecraft mods/liminality-template-1.21.10 neoforge/build/moddev/artifacts/neoforge-21.10.64.jar > mixinextras-neoforge-0.5.0.jar)]
+[06січ.2026 20:45:40.957] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[06січ.2026 20:45:40.957] [main/DEBUG] [mixin/]: Selecting config neoforge.mixins.json
+[06січ.2026 20:45:40.957] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
+[06січ.2026 20:45:41.019] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0) is taking over from null
+[06січ.2026 20:45:41.066] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[06січ.2026 20:45:41.066] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[06січ.2026 20:45:41.066] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[06січ.2026 20:45:41.066] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[06січ.2026 20:45:41.066] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[06січ.2026 20:45:41.066] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[06січ.2026 20:45:41.081] [main/DEBUG] [mixin/]: Preparing neoforge.mixins.json (2)
+[06січ.2026 20:45:41.182] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[06січ.2026 20:45:41.496] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[06січ.2026 20:45:41.496] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[06січ.2026 20:45:41.496] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[06січ.2026 20:45:42.849] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 281 Datafixer optimizations took 771 milliseconds
+[06січ.2026 20:45:43.228] [main/WARN] [oshi.util.platform.windows.PerfDataUtil/]: Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[06січ.2026 20:45:43.228] [main/WARN] [oshi.util.platform.windows.PerfCounterQueryHandler/]: Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[06січ.2026 20:45:43.228] [main/INFO] [oshi.util.platform.windows.PerfCounterQuery/]: Disabling further attempts to query Paging File.
+[06січ.2026 20:45:43.244] [main/WARN] [oshi.util.platform.windows.WmiQueryHandler/]: COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
+[06січ.2026 20:45:43.275] [pool-8-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[06січ.2026 20:45:43.291] [pool-8-thread-1/DEBUG] [mixin/]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[06січ.2026 20:45:43.291] [pool-8-thread-1/DEBUG] [mixin/]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[06січ.2026 20:45:43.291] [pool-8-thread-1/DEBUG] [mixin/]: Registering new injector for @ExpressionInjectorWrapper with com.llamalad7.mixinextras.expression.impl.wrapper.ExpressionInjectorWrapperInjectionInfo
+[06січ.2026 20:45:43.291] [pool-8-thread-1/DEBUG] [mixin/]: Mixing MappedRegistryAccessor from neoforge.mixins.json into net.minecraft.core.MappedRegistry
+[06січ.2026 20:45:44.242] [pool-8-thread-1/DEBUG] [mixin/]: Mixing BlockEntityTypeAccessor from neoforge.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
+[06січ.2026 20:45:45.601] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[06січ.2026 20:45:45.601] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 21
+[06січ.2026 20:45:45.601] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[06січ.2026 20:45:45.601] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe base methods: all available
+[06січ.2026 20:45:45.601] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[06січ.2026 20:45:45.601] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[06січ.2026 20:45:45.601] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[06січ.2026 20:45:45.601] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[06січ.2026 20:45:45.616] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @7c417213
+[06січ.2026 20:45:45.616] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[06січ.2026 20:45:45.616] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[06січ.2026 20:45:45.616] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\Admin\AppData\Local\Temp (java.io.tmpdir)
+[06січ.2026 20:45:45.616] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[06січ.2026 20:45:45.616] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[06січ.2026 20:45:45.616] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[06січ.2026 20:45:45.616] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[06січ.2026 20:45:45.616] [pool-8-thread-1/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[06січ.2026 20:45:45.616] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[06січ.2026 20:45:48.032] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06січ.2026 20:45:48.047] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06січ.2026 20:45:48.047] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06січ.2026 20:45:48.047] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06січ.2026 20:45:48.047] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06січ.2026 20:45:48.047] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [waypoint, modify, waypoint, color, reset] and [waypoint, modify, waypoint, color, color] with inputs: [reset]
+[06січ.2026 20:45:48.094] [main/DEBUG] [net.neoforged.fml.ModWorkManager/LOADING]: Using 12 threads for parallel mod-loading
+[06січ.2026 20:45:48.094] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for liminality with entrypoints [com.theo222.liminality.Liminality, com.theo222.liminality.LiminalityClient]
+[06січ.2026 20:45:48.111] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for neoforge with entrypoints [net.neoforged.neoforge.common.NeoForgeMod, net.neoforged.neoforge.common.OnlyInWarningsHandler, net.neoforged.neoforge.client.ClientNeoForgeMod]
+[06січ.2026 20:45:48.121] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.64, for MC 1.21.10
+[06січ.2026 20:45:48.155] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
+[06січ.2026 20:45:48.155] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file liminality-common.toml for liminality tracking
+[06січ.2026 20:45:48.155] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-common.toml for neoforge tracking
+[06січ.2026 20:45:48.163] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for liminality
+[06січ.2026 20:45:48.163] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.theo222.liminality.LiminalityClient for @SubscribeEvent-annotated methods
+[06січ.2026 20:45:48.179] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method static void com.theo222.liminality.LiminalityClient.onClientSetup(net.neoforged.fml.event.lifecycle.FMLClientSetupEvent) to the event bus of mod liminality
+[06січ.2026 20:45:48.197] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-client.toml for neoforge tracking
+[06січ.2026 20:45:48.197] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
+[06січ.2026 20:45:48.197] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentInternals for @SubscribeEvent-annotated methods
+[06січ.2026 20:45:48.197] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentInternals.onLivingConvert(net.neoforged.neoforge.event.entity.living.LivingConversionEvent$Post) to the game event bus
+[06січ.2026 20:45:48.197] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentInternals.onPlayerClone(net.neoforged.neoforge.event.entity.player.PlayerEvent$Clone) to the game event bus
+[06січ.2026 20:45:48.197] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentSync for @SubscribeEvent-annotated methods
+[06січ.2026 20:45:48.197] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentSync.onChunkSent(net.neoforged.neoforge.event.level.ChunkWatchEvent$Sent) to the game event bus
+[06січ.2026 20:45:48.197] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer for @SubscribeEvent-annotated methods
+[06січ.2026 20:45:48.213] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer.onExtractLevelRenderState(net.neoforged.neoforge.client.event.ExtractLevelRenderStateEvent) to the game event bus
+[06січ.2026 20:45:48.214] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer.onRegisterClientCommands(net.neoforged.neoforge.client.event.RegisterClientCommandsEvent) to the game event bus
+[06січ.2026 20:45:48.214] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer.onRenderLevelStage(net.neoforged.neoforge.client.event.RenderLevelStageEvent$AfterEntities) to the game event bus
+[06січ.2026 20:45:48.214] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.NeoForgeRenderPipelines for @SubscribeEvent-annotated methods
+[06січ.2026 20:45:48.216] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method static void net.neoforged.neoforge.client.NeoForgeRenderPipelines.registerPipelines(net.neoforged.neoforge.client.event.RegisterRenderPipelinesEvent) to the event bus of mod neoforge
+[06січ.2026 20:45:48.216] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.network.ClientPayloadHandler for @SubscribeEvent-annotated methods
+[06січ.2026 20:45:48.232] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.client.network.ClientPayloadHandler.register(net.neoforged.neoforge.client.network.event.RegisterClientPayloadHandlersEvent) to the event bus of mod neoforge
+[06січ.2026 20:45:48.232] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.common.MonsterRoomHooks for @SubscribeEvent-annotated methods
+[06січ.2026 20:45:48.232] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.common.MonsterRoomHooks.onDataMapsUpdated(net.neoforged.neoforge.registries.datamaps.DataMapsUpdatedEvent) to the game event bus
+[06січ.2026 20:45:48.232] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.model.data.ModelDataManager for @SubscribeEvent-annotated methods
+[06січ.2026 20:45:48.232] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.model.data.ModelDataManager.onChunkUnload(net.neoforged.neoforge.event.level.ChunkEvent$Unload) to the game event bus
+[06січ.2026 20:45:48.232] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.ConfigurationInitialization for @SubscribeEvent-annotated methods
+[06січ.2026 20:45:48.232] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.ConfigurationInitialization.configureModdedClient(net.neoforged.neoforge.network.event.RegisterConfigurationTasksEvent) to the event bus of mod neoforge
+[06січ.2026 20:45:48.232] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.NetworkInitialization for @SubscribeEvent-annotated methods
+[06січ.2026 20:45:48.232] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.NetworkInitialization.register(net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent) to the event bus of mod neoforge
+[06січ.2026 20:45:48.232] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.filters.GenericPacketSplitter for @SubscribeEvent-annotated methods
+[06січ.2026 20:45:48.263] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[06січ.2026 20:45:48.263] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[06січ.2026 20:45:48.263] [modloading-worker-0/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3f71e4a0
+[06січ.2026 20:45:48.263] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[06січ.2026 20:45:48.263] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[06січ.2026 20:45:48.279] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 24
+[06січ.2026 20:45:48.279] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 24
+[06січ.2026 20:45:48.279] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[06січ.2026 20:45:48.279] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[06січ.2026 20:45:48.279] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[06січ.2026 20:45:48.279] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[06січ.2026 20:45:48.279] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[06січ.2026 20:45:48.279] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[06січ.2026 20:45:48.279] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[06січ.2026 20:45:48.279] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[06січ.2026 20:45:48.279] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[06січ.2026 20:45:48.279] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[06січ.2026 20:45:48.279] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
+[06січ.2026 20:45:48.279] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[06січ.2026 20:45:48.279] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[06січ.2026 20:45:48.279] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[06січ.2026 20:45:48.279] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.filters.GenericPacketSplitter.register(net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent) to the event bus of mod neoforge
+[06січ.2026 20:45:48.402] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[06січ.2026 20:45:48.417] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-client.toml
+[06січ.2026 20:45:48.417] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config\neoforge-client.toml
+[06січ.2026 20:45:48.417] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config\neoforge-client.toml for changes
+[06січ.2026 20:45:48.417] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[06січ.2026 20:45:48.417] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config\liminality-common.toml
+[06січ.2026 20:45:48.417] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config\liminality-common.toml for changes
+[06січ.2026 20:45:48.417] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-common.toml
+[06січ.2026 20:45:48.417] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config\neoforge-common.toml
+[06січ.2026 20:45:48.417] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config\neoforge-common.toml for changes
+[06січ.2026 20:45:48.577] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[06січ.2026 20:45:48.594] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[06січ.2026 20:45:48.677] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[06січ.2026 20:45:48.803] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+[06січ.2026 20:45:49.415] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/liminality, mod/neoforge
+[06січ.2026 20:45:49.537] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Common setup: 1 jobs
+[06січ.2026 20:45:49.540] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 1.904 ms
+[06січ.2026 20:45:49.618] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_pua-16.0.03.hex, loading
+[06січ.2026 20:45:49.618] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.03.hex, loading
+[06січ.2026 20:45:49.737] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.03.hex, loading
+[06січ.2026 20:45:49.765] [resourceLoad/INFO] [com.theo222.liminality.Liminality/]: HELLO FROM CLIENT SETUP
+[06січ.2026 20:45:49.766] [resourceLoad/INFO] [com.theo222.liminality.Liminality/]: MINECRAFT NAME >> Dev
+[06січ.2026 20:45:49.998] [resourceLoad/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture liminality:item/pill with size 1000x1000 limits mip level from 4 to 3
+[06січ.2026 20:45:51.289] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headphones (soundcore Space Q45)
+[06січ.2026 20:45:51.290] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[06січ.2026 20:45:51.291] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[06січ.2026 20:45:51.293] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[06січ.2026 20:45:51.293] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[06січ.2026 20:45:51.295] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[06січ.2026 20:45:51.296] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[06січ.2026 20:45:51.296] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[06січ.2026 20:45:51.303] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/chest.png-atlas
+[06січ.2026 20:45:51.303] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[06січ.2026 20:45:51.306] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[06січ.2026 20:45:51.310] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[06січ.2026 20:45:51.314] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[06січ.2026 20:45:51.315] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
+[06січ.2026 20:45:51.315] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[06січ.2026 20:45:51.419] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[06січ.2026 20:45:51.561] [Render thread/DEBUG] [net.neoforged.fml.classloading.transformation.ClassTransformStatistics/]: Transformed/total loaded classes: 395/6987 (5,65%) and 5 parsed for mixin
+[06січ.2026 20:45:58.093] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1462 recipes
+[06січ.2026 20:45:58.103] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
+[06січ.2026 20:45:58.105] [Render thread/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[06січ.2026 20:45:58.189] [Render thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[06січ.2026 20:45:58.254] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.10
+[06січ.2026 20:45:58.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[06січ.2026 20:45:58.324] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[06січ.2026 20:45:58.325] [Server thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-server.toml
+[06січ.2026 20:45:58.325] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config\neoforge-server.toml
+[06січ.2026 20:45:58.326] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\config\neoforge-server.toml for changes
+[06січ.2026 20:45:58.655] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
+[06січ.2026 20:45:58.670] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[06січ.2026 20:45:58.752] [Render thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 24
+[06січ.2026 20:45:58.770] [Render thread/DEBUG] [io.netty.util.concurrent.GlobalEventExecutor/]: -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[06січ.2026 20:45:58.793] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
+[06січ.2026 20:45:58.793] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
+[06січ.2026 20:45:58.802] [Render thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[06січ.2026 20:45:58.846] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 21820 (auto-detected)
+[06січ.2026 20:45:58.848] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[06січ.2026 20:45:58.849] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: system
+[06січ.2026 20:45:58.852] [Render thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+[06січ.2026 20:45:58.852] [Render thread/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[06січ.2026 20:45:58.853] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 20:2b:20:ff:fe:18:ac:d8 (auto-detected)
+[06січ.2026 20:45:58.872] [Render thread/DEBUG] [io.netty.bootstrap.ChannelInitializerExtensions/]: -Dio.netty.bootstrap.extensions: null
+[06січ.2026 20:45:59.124] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[06січ.2026 20:45:59.124] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[06січ.2026 20:45:59.124] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[06січ.2026 20:45:59.124] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[06січ.2026 20:45:59.124] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[06січ.2026 20:45:59.256] [Netty Server IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@4ffffd73 into net.minecraft.network.Connection@4c6cff6e
+[06січ.2026 20:45:59.260] [Netty Local Client IO #0/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@7cd5bf9d into net.minecraft.network.Connection@6a364c22
+[06січ.2026 20:45:59.507] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 49 chunks for player spawn...
+[06січ.2026 20:45:59.507] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
+[06січ.2026 20:45:59.526] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
+[06січ.2026 20:45:59.675] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 16%
+[06січ.2026 20:45:59.811] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 1156 ms
+[06січ.2026 20:46:00.028] [Netty Server IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@5e0e1e23 into net.minecraft.network.Connection@4c6cff6e
+[06січ.2026 20:46:00.106] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:aa6042c6] logged in with entity id 124 at (-171.81818598872388, 63.0, 24.04546221969111)
+[06січ.2026 20:46:00.118] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/]: Sending 0 recipes of the following types: []
+[06січ.2026 20:46:00.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[06січ.2026 20:46:00.230] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Ignoring chat session from Dev due to missing Services public key
+[06січ.2026 20:46:00.267] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[06січ.2026 20:46:00.314] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[06січ.2026 20:46:00.314] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[06січ.2026 20:46:00.316] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[06січ.2026 20:46:00.320] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 23 advancements
+[06січ.2026 20:46:00.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: clih: 15
+[06січ.2026 20:46:00.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: clih: 15
+[06січ.2026 20:46:00.446] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] clih: 15
+[06січ.2026 20:46:00.483] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[06січ.2026 20:46:00.546] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[06січ.2026 20:46:00.580] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[06січ.2026 20:46:00.788] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
+[06січ.2026 20:46:01.077] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
+[06січ.2026 20:46:01.306] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[06січ.2026 20:46:01.959] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
+[06січ.2026 20:46:02.778] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
+[06січ.2026 20:46:03.509] [Server thread/ERROR] [net.neoforged.bus.EventBus/EVENTBUS]: Exception caught during firing event: Trying to access unbound value: ResourceKey[minecraft:entity_type / liminality:test_entity]
+	Index: 0
+	Listeners:
+		0: net.neoforged.bus.EventListenerFactory$OnConsume/0x000001b062e85c00@3075dc3b
+java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:entity_type / liminality:test_entity]
+	at TRANSFORMER/neoforge@21.10.64/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103)
+	at TRANSFORMER/neoforge@21.10.64/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117)
+	at TRANSFORMER/liminality@1.0.0/com.theo222.liminality.Liminality.OnConsume(Liminality.java:173)
+	at net.neoforged.bus.EventBus.post(EventBus.java:360)
+	at net.neoforged.bus.EventBus.post(EventBus.java:328)
+	at TRANSFORMER/neoforge@21.10.64/net.neoforged.neoforge.event.EventHooks.onItemUseFinish(EventHooks.java:463)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.LivingEntity.completeUsingItem(LivingEntity.java:3486)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.level.ServerPlayer.completeUsingItem(ServerPlayer.java:1648)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.LivingEntity.updateUsingItem(LivingEntity.java:3392)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.level.ServerPlayer.updateUsingItem(ServerPlayer.java:2251)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.LivingEntity.updatingUsingItem(LivingEntity.java:3344)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2714)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.player.Player.tick(Player.java:274)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:666)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.network.ServerGamePacketListenerImpl.tickPlayer(ServerGamePacketListenerImpl.java:304)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:286)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.network.Connection.tick(Connection.java:411)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:182)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.MinecraftServer.tickConnection(MinecraftServer.java:1212)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1179)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1037)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:116)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:787)
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:284)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[06січ.2026 20:46:03.591] [Server thread/WARN] [oshi.util.platform.windows.WmiQueryHandler/]: COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
+[06січ.2026 20:46:03.597] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
+net.minecraft.ReportedException: Ticking player
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:185) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.MinecraftServer.tickConnection(MinecraftServer.java:1212) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1179) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1037) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:116) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:787) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:284) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:entity_type / liminality:test_entity]
+	at TRANSFORMER/neoforge@21.10.64/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103) ~[neoforge-21.10.64.jar:?]
+	at TRANSFORMER/neoforge@21.10.64/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117) ~[neoforge-21.10.64.jar:?]
+	at TRANSFORMER/liminality@1.0.0/com.theo222.liminality.Liminality.OnConsume(Liminality.java:173) ~[main/:?]
+	at net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar:?]
+	at net.neoforged.bus.EventBus.post(EventBus.java:328) ~[bus-8.0.5.jar:?]
+	at TRANSFORMER/neoforge@21.10.64/net.neoforged.neoforge.event.EventHooks.onItemUseFinish(EventHooks.java:463) ~[neoforge-21.10.64.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.LivingEntity.completeUsingItem(LivingEntity.java:3486) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.level.ServerPlayer.completeUsingItem(ServerPlayer.java:1648) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.LivingEntity.updateUsingItem(LivingEntity.java:3392) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.level.ServerPlayer.updateUsingItem(ServerPlayer.java:2251) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.LivingEntity.updatingUsingItem(LivingEntity.java:3344) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2714) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.world.entity.player.Player.tick(Player.java:274) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:666) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.network.ServerGamePacketListenerImpl.tickPlayer(ServerGamePacketListenerImpl.java:304) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:286) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.network.Connection.tick(Connection.java:411) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:182) ~[neoforge-21.10.64-client-extra-aka-minecraft-resources.jar:?]
+	... 7 more
+[06січ.2026 20:46:03.610] [Server thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID 018e9dd0-1006-4b9c-8c86-e0d95b33be32
+[06січ.2026 20:46:03.611] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: C:\Users\Admin\Desktop\minecraft mods\liminality-template-1.21.10 neoforge\run\.\crash-reports\crash-2026-01-06_20.46.03-server.txt
+[06січ.2026 20:46:03.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[06січ.2026 20:46:03.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[06січ.2026 20:46:03.624] [Render thread/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID cf547561-8ced-41ed-89c2-ecab41b1a648
+[06січ.2026 20:46:03.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds

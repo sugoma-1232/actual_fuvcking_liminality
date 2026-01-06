@@ -24,6 +24,9 @@ public class Config {
     public static final ModConfigSpec.BooleanValue SANDBOX = BUILDER
             .comment("Whether to allow gamemode switching(dont turn this on unless yourve seen it all)")
             .define("AllowGameModes", true);
+    public static final ModConfigSpec.BooleanValue DEBUG = BUILDER
+            .comment("Some additional info")
+            .define("Debug", true);
 
     /*
     public static final ModConfigSpec.BooleanValue LOG_DIRT_BLOCK = BUILDER

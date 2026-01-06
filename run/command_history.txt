@@ -13,3 +13,4 @@
 /tick rate 20
 /tick rate 200
 /tick rate 20
+/summon liminality:test_entity
