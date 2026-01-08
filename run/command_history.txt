@@ -14,3 +14,18 @@
 /tick rate 200
 /tick rate 20
 /summon liminality:test_entity
+/tp @e Dev
+/summon liminality:test_entity
+/time set midnight
+/summon liminality:test_entity
+/summon liminality:protect1on_087
+/time set midnight
+/summon liminality:protect1on_087
+/summon liminality:protect1on_087s
+/summon liminality:protect1on_087
+/give @a minecraft:netherite_axe 2
+/summon liminality:protect1on_087
+/data get entity 2c1d3493-f665-4286-a40e-5cb1b2549e6a
+/summon liminality:protect1on_087
+/summon minecraft:skeleton
+/summon liminality:protect1on_087

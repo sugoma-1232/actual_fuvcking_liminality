@@ -1,5 +1,6 @@
 package com.theo222.liminality;
-import com.theo222.liminality.entities.TestEntity;
+import com.theo222.liminality.entities.Entity_1;
+import net.minecraft.core.Holder;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.ChatType;
 import net.minecraft.network.chat.Component;
@@ -13,14 +14,19 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntitySpawnReason;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
+import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.entity.monster.Zombie;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.GameType;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.MapColor;
 import net.neoforged.neoforge.event.entity.EntityAttributeCreationEvent;
 import net.neoforged.neoforge.event.entity.living.LivingEntityUseItemEvent;
@@ -64,7 +70,7 @@ public class Liminality {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MODID);
 
     public static final DeferredRegister.Entities ENTITIES = DeferredRegister.createEntities(MODID);
-    public static final DeferredRegister<EntityType<?>> ENTITY_TYPES = DeferredRegister.create(BuiltInRegistries.ENTITY_TYPE, MODID);
+
     // Create a Deferred Register to hold Items which will all be registered under the "liminality" namespace
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MODID);
     // Create a Deferred Register to hold CreativeModeTabs which will all be registered under the "liminality" namespace
@@ -73,9 +79,7 @@ public class Liminality {
     public static final DeferredRegister<SoundEvent> SOUND_EVENTS = DeferredRegister.create(BuiltInRegistries.SOUND_EVENT, MODID);
 
 
-    public static final Supplier<EntityType<TestEntity>> TEST = ENTITY_TYPES.register("test_entity", () ->
-            EntityType.Builder.of(TestEntity::new, MobCategory.CREATURE).build(
-                    ResourceKey.create(Registries.ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath(MODID, "test_entity"))));
+
 
     public static final Supplier<SoundEvent> CAVESOUND = SOUND_EVENTS.register("cave_sound_main", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath(MODID, "cave_sound_main")));
     public static final DeferredItem<Item> PILL_ITEM = ITEMS.registerSimpleItem("pill", p -> p.food(new FoodProperties.Builder()
@@ -122,10 +126,10 @@ public class Liminality {
         ITEMS.register(modEventBus);
         CREATIVE_MODE_TABS.register(modEventBus);
         SOUND_EVENTS.register(modEventBus);
-        ENTITY_TYPES.register(modEventBus);
+        EntityRegistries.ENTITY_TYPES.register(modEventBus);
         NeoForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
-        modEventBus.addListener(this::onEntityAttributeCreation);
+        modEventBus.addListener(EntityRegistries::onEntityAttributeCreation);
 
 
 
@@ -143,9 +147,7 @@ public class Liminality {
             //event.accept(EXAMPLE_BLOCK_ITEM);
         }
     }
-    public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
-        event.put(TEST.get(), AttributeSupplier.builder().build());
-    }
+
     public void debugprint(String msg, MinecraftServer server) {
         if (Config.DEBUG.isTrue()) {
             server.sendSystemMessage(Component.literal(msg));
@@ -176,10 +178,10 @@ public class Liminality {
                 save.HallucinationChance = save.HallucinationChance - 10;
                 save.foo();
             }
-            TEST.get().create(serverLevel, null, event.getEntity().blockPosition(), EntitySpawnReason.NATURAL, false, false);
             debugprint("dihmond: "  + String.valueOf(save.HallucinationChance), serverLevel.getServer());
         }
     }
+
     @SubscribeEvent
     public void onServerTick(ServerTickEvent.Pre event) {
         LiminalitySavedData save = event.getServer().overworld().getDataStorage().computeIfAbsent(LiminalitySavedData.ID);
@@ -209,6 +211,7 @@ public class Liminality {
 
 
     }
+
     @SubscribeEvent
     public void onPlayerChangeGameMode(PlayerEvent.PlayerChangeGameModeEvent event) {
         if (event.getNewGameMode() != GameType.SURVIVAL && !Config.SANDBOX.isTrue()) {
